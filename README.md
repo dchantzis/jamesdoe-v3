@@ -43,9 +43,9 @@ This application also demonstrates ways of securing a web application according 
 - <https://github.com/dchantzis>
 
 ## Screenshots
-![Image 1](http://jamesdoe-v3.nfshost.com/images/screenshots/screenshot-1.png)
-![Image 2](http://jamesdoe-v3.nfshost.com/images/screenshots/screenshot-2.png)
-![Image 3](http://jamesdoe-v3.nfshost.com/images/screenshots/screenshot-3.png)
-![Image 4](http://jamesdoe-v3.nfshost.com/images/screenshots/screenshot-4.png)
-![Image 5](http://jamesdoe-v3.nfshost.com/images/screenshots/screenshot-5.png)
-![Image 5](http://jamesdoe-v3.nfshost.com/images/screenshots/screenshot-6.png)
+![Image 1](http://jamesdoe-v3.nfshost.com/jdimages/screenshots/screenshot-1.png)
+![Image 2](http://jamesdoe-v3.nfshost.com/jdimages/screenshots/screenshot-2.png)
+![Image 3](http://jamesdoe-v3.nfshost.com/jdimages/screenshots/screenshot-3.png)
+![Image 4](http://jamesdoe-v3.nfshost.com/jdimages/screenshots/screenshot-4.png)
+![Image 5](http://jamesdoe-v3.nfshost.com/jdimages/screenshots/screenshot-5.png)
+![Image 5](http://jamesdoe-v3.nfshost.com/jdimages/screenshots/screenshot-6.png)
