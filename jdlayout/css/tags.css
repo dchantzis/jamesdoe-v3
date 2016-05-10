@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tags ul.tagul
+{
+	list-style-type: none;
+	display: block;
+}
+.tags ul.tagul li
+{
+	margin: 0 0 5px 0;
+}
+.tags ul.tagul .tagnames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color:#000000;
+	margin: 0 0 15px 0;
+	padding: 0 3px 0 3px;
+}
+.tags .taggedimagesbanners
+{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 15px 0 0px 0;
+}
+.tags .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+}
+.tags .taggedimagesthumbnails
+{
+	width: 660px;
+	float: left;
+	padding: 8px;
+}
+.tags .taggedimagesthumbnails .imagethumbs
+{
+	padding: 5px;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
+.tags .taggedimagesthumbnails .imagethumbs:hover,
+.tags .taggedimagesthumbnails .imagethumbs:active,
+.tags .taggedimagesthumbnails .imagethumbs:focus
+{
+	padding-bottom: 2px;
+	border-bottom: 3px solid #5F5F5F;
+}
+.tags .taggedimagesthumbnails img 
+{
+	border: 0px;
+}
+.tags .othertags
+{
+	text-align: justify;
+	text-transform: capitalize;
+	padding: 5px;
+	border: 1px dashed #7D7D7D
+}
+.tags .othertags ul
+{
+	list-style-type:none;
+}
+.tags .othertags ul li
+{
+	font-size: 12px;
+	display: inline;
+}
+.tags .othertags ul li a
+{
+	color: #5F5F5F;
+	padding: 2px;
+	text-decoration: none;
+}
+.tags .othertags ul li a:hover,
+.tags .othertags ul li a:active,
+.tags .othertags ul li a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.tags .othertags .smallestTag{font-size:9px;}
+.tags .othertags .smallTag{font-size:12px;}
+.tags .othertags .mediumTag{font-size:18px;}
+.tags .othertags .largeTag{font-size:24px;}
+.tags .othertags .largestTag{font-size:30px;}
+
+.tags .hidden
+{
+	display: none;
+}

@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmeditsettings .settingsbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.mmeditsettings ul.settingscategories
+{
+	list-style-type: none;
+}
+.mmeditsettings ul.settingscategories li
+{
+	margin: 5px 0 5px 0;
+}
+.mmeditsettings ul.profileoptions
+{
+	padding: 10px;
+	list-style-type: none;
+}
+.mmeditsettings ul.profileoptions li
+{
+	font-size: 12px;
+	margin: 5px 0 5px 0;
+	line-height: 22px;
+}
+
+.mmeditsettings li.albums
+{
+	float: left;
+}
+.mmeditsettings .statictips
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.mmeditsettings .biglinehorizontal
+{
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat top;
+}
+
+.mmeditsettings li.comments,
+.mmeditsettings li.homepage,
+.mmeditsettings li.links,
+.mmeditsettings li.imagesupdates
+{
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.mmeditsettings li.albums
+{
+	width: 680px;
+}
+.mmeditsettings li.albums ul
+{
+	font-size: 11px;
+	list-style-type:none;
+	padding: 10px;
+	text-transform: capitalize;
+	width: 315px;
+	min-height: 200px;
+	margin: 5px 0 0 0;
+}
+.mmeditsettings li.albums #invisiblealbums
+{
+	float: left;
+	background: url('../images/invisiblebg.png') no-repeat top right;
+}
+.mmeditsettings li.albums #visiblealbums
+{
+	float: right;
+	background: url('../images/visiblebg.png') no-repeat top right;
+}
+.mmeditsettings li.albums ul li
+{
+	margin: 2px 0 2px 0;
+	padding: 1px 2px 1px 2px;
+	cursor: pointer;
+}
+.mmeditsettings li.albums ul li:hover,
+.mmeditsettings li.albums ul li:active,
+.mmeditsettings li.albums ul li:focus
+{
+	background-color: #FF0000;
+	color:#FFFFFF;
+}
+.mmeditsettings .biglineverticals
+{
+	float: left;
+	width: 5px;
+	margin: 5px 0 0 0;
+	padding: 2px 0 2px 0;
+	height: 200px;
+	background: url('../images/biglinev.gif') no-repeat bottom;
+}
+
+.mmeditsettings .elements
+{
+	display: inline;
+}
+
+.mmeditsettings .editprofileelements
+{
+	font-weight: bold;
+	text-transform: capitalize;
+	cursor: pointer;
+	display: block;
+	margin: 0 0 0 100px;
+}
+.mmeditsettings .editprofileelements:hover,
+.mmeditsettings .editprofileelements:active,
+.mmeditsettings .editprofileelements:focus
+{
+	color: #FFFFFF;
+	background-color:#FF0000;
+	padding: 0 2px 0 2px;
+}
+
+.mmeditsettings .profilefrms
+{
+	margin: 0 0 0 100px;
+}
+
+.mmeditsettings .profilefrms
+{
+	display: none;
+}
+
+.mmeditsettings .elements
+{
+	margin: 0 7px 0 0;
+	float: left;
+}
+.mmeditsettings .error
+{
+	font-size: 11px;
+	margin: 0 0 0 5px;
+	display: inline; 
+	color: #ff0000;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mmeditsettings #togglelinks
+{
+	display: none;
+}
+.mmeditsettings .hidden
+{
+	display: none;
+}

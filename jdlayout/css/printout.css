@@ -1,0 +1,4362 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*body for all the pages */
+body {
+	background-color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 70%;
+	color: #5F5F5F;
+}
+#wrapper
+{
+	width: 900px;
+	height: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+#sidebar
+{
+	padding: 0 5px 0 5px;
+	margin: 0 10px 5px 0px;
+	font-size: 10px;
+	width: 150px;
+	background-color: #FFFFFF;
+}
+#content
+{
+	margin: 0 0 0 0;
+	padding: 3px 0 0 0;
+	float: left;
+	height: 100%;
+	width: 690px;
+	background-color: #FFFFFF;
+}
+#maincolumn
+{
+	margin: 5px 0 5px 0;
+	padding: 0 5px 0 5px;
+	width: 681px;
+	height: 100%;
+}
+#sidefooter
+{
+	/*height: 525px;*/
+}
+#mainfooter
+{
+	clear: both;
+	height: 200px;
+}
+#sidebar .sitebanner
+{
+	/*width: 850px;*/
+	margin: 0 0 5px 0;
+	/*
+	background-color: #FFFFFF;
+	background: transparent url('../images/jamesdoe.png') no-repeat;
+	*/
+	width: 150px;
+	height: 55px;
+}
+#sidebar #adminmodebanner
+{
+	color: #FFFFFF;
+	background-color:#7D7D7D;
+	margin: 5px 0 0 0;
+	padding: 2px;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+#sidebar ul.legalshit
+{
+	list-style-type: none;
+}
+#sidebar ul.legalshit li
+{
+	margin: 5px 0 5px 0;
+}
+#sidebar .separator
+{
+	height: 15px;
+	border-bottom: 1px solid #CCCCCC;
+}
+#sidebar ul.navi
+{
+	color: #7D7D7D;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 5px 0 5px 0;
+	list-style-type: none;
+	font-weight: bold;
+}
+#sidebar ul.navi li
+{
+	margin: 0 0 2px 0;
+}
+#sidebar ul.navi a
+{
+	color: #7D7D7D;
+	text-decoration: none;
+}
+#sidebar ul.navi .subnavitogglers span
+{
+	cursor: pointer;
+}
+#sidebar ul.navi ul.subnavi
+{
+	text-transform: capitalize;
+	padding: 2px 0 5px 10px;
+	list-style-type: none;
+}
+#sidebar ul.navi ul.subnavi li a
+{
+	color: #9F9F9F;
+}
+#sidebar ul.navi a:hover,
+#sidebar ul.navi a:active,
+#sidebar ul.navi a:focus,
+#sidebar ul.navi .subnavitogglers span:hover,
+#sidebar ul.navi .subnavitogglers span:active,
+#sidebar ul.navi .subnavitogglers span:focus,
+#sidebar ul.navi ul.subnavi li a:hover,
+#sidebar ul.navi ul.subnavi li a:active,
+#sidebar ul.navi ul.subnavi li a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+#sidebar #sitebanner
+{
+	cursor: pointer;
+}
+
+#pagetitle
+{
+	color: #5F5F5F;
+	margin: 5px 5px 5px 5px;
+}
+#pagetitle ul.secondarynavi
+{
+	color: #5F5F5F;
+	font-size: 11px;	
+	float: left;
+	text-transform: uppercase;
+	list-style-type: none;
+}
+#pagetitle ul.secondarynavi li
+{
+	display: inline;
+	font-weight: bold;
+}
+#pagetitle ul.secondarynavi li a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+}
+#pagetitle ul.secondarynavi li a:hover,
+#pagetitle ul.secondarynavi li a:active,
+#pagetitle ul.secondarynavi li a:focus
+{
+	text-decoration: underline;
+}
+
+#spacer
+{
+	clear: both;
+	height: 15px;
+}
+
+.highlight
+{
+	color: #FF0000;
+}
+
+.emails
+{
+	cursor: pointer;
+}
+.emails .highlight
+{
+	font-size: 12px;
+}
+
+.mmeditimages #helpbutt,
+.mmeditalbums #helpbutt,
+.mmeditposts #helpbutt,
+.mmeditcomments #helpbutt,
+.mmeditsettings #helpbutt,
+.mmeditwelcomepage #helpbutt,
+.mmeditinfo #helpbutt,
+.mmualeditcomments #helpbutt,
+.mmeditualroutine #helpbutt,
+.mmeditualerrors #helpbutt
+{
+	float: right;
+	font-size: 12px;
+}
+.mmeditimages #helpline,
+.mmeditalbums #helpline,
+.mmeditposts #helpline,
+.mmeditcomments #helpline,
+.mmeditsettings #helpline,
+.mmeditwelcomepage #helpline,
+.mmeditinfo #helpline,
+.mmualeditcomments #helpline,
+.mmeditualroutine #helpline,
+.mmeditualerrors #helpline
+{
+	clear: both;
+	width: 25px;
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/line.gif') no-repeat bottom;
+}
+#pagetitle #helpbutt a
+{
+	color: #5F5F5F;
+
+	text-decoration: none;
+}
+#pagetitle #helpbutt a:hover,
+#pagetitle #helpbutt a:active,
+#pagetitle #helpbutt a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditimages #helpcontent,
+.mmeditalbums #helpcontent,
+.mmeditposts #helpcontent,
+.mmeditcomments #helpcontent,
+.mmeditsettings #helpcontent,
+.mmeditwelcomepage #helpcontent,
+.mmeditinfo #helpcontent,
+.mmualeditcomments #helpcontent,
+.mmeditualroutine #helpcontent,
+.mmeditualerrors #helpcontent
+{
+	position: absolute;
+	/*
+	top: 200px;
+	left: 250px;
+	*/
+	color: #5F5F5F;
+	margin: 0px 80px 0px 80px;
+	padding: 5px 10px 10px 10px;
+	width: 500px;
+	border: 1px #C9C9C9 dotted;
+	background-color: #FFFFFF;
+	text-align: justify;
+}
+.mmeditimages #helpclosebutt,
+.mmeditalbums #helpclosebutt,
+.mmeditposts #helpclosebutt,
+.mmeditcomments #helpclosebutt,
+.mmeditsettings #helpclosebutt,
+.mmeditwelcomepage #helpclosebutt,
+.mmeditinfo #helpclosebutt,
+.mmualeditcomments #helpclosebutt,
+.mmeditualroutine #helpclosebutt,
+.mmeditualerrors #helpclosebutt
+{
+	margin: 0 0 3px 485px;
+	cursor: pointer;
+}
+.mmeditimages .helpbanners,
+.mmeditalbums .helpbanners,
+.mmeditposts .helpbanners,
+.mmeditcomments .helpbanners,
+.mmeditsettings .helpbanners,
+.mmeditwelcomepage .helpbanners,
+.mmeditinfo .helpbanners,
+.mmualeditcomments .helpbanners,
+.mmeditualroutine .helpbanners,
+.mmeditualerrors .helpbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+
+#alertcontent
+{
+	position: absolute;
+	/*
+	top: 200px;
+	left: 250px;
+	*/
+	color: #5F5F5F;
+	font-weight: bold;
+	margin: 0px 80px 0px 80px;
+	padding: 5px 10px 10px 10px;
+	width: 500px;
+	min-height: 50px;
+	border: 1px #C9C9C9 dotted;
+	background-color: #FFFFFF;
+	text-align: justify;
+}
+#alertclosebutt
+{
+	margin: 0 0 3px 485px;
+	cursor: pointer;
+}
+.alertbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+
+.phperrorcontent
+{
+	position: absolute;
+	/*
+	top: 200px;
+	left: 250px;
+	*/
+	color: #5F5F5F;
+	font-weight: bold;
+	margin: 0px 80px 0px 80px;
+	padding: 5px 10px 10px 10px;
+	width: 500px;
+	min-height: 50px;
+	border: 1px #C9C9C9 dotted;
+	background-color: #FFFFFF;
+	text-align: justify;
+}
+.phperrorbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+.phperrornotes
+{
+	margin: 10px 0 0 0;
+}
+.mmeditimages .tip,
+.mmeditalbums .tip,
+.mmeditposts .tip,
+.mmeditsettings .tip
+{ 
+	font-size: 11px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	min-width: 200px;
+}
+.mmeditimages .tip-title,
+.mmeditalbums .tip-title,
+.mmeditposts .tip-title,
+.mmeditsettings .tip-title
+{ 
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #CCCCCC;
+	padding: 2px 5px 2px 5px;
+}
+.mmeditimages .tip-text,
+.mmeditalbums .tip-text,
+.mmeditposts .tip-text,
+.mmeditsettings .tip-text
+{ 
+	color: #5F5F5F;
+	padding: 5px;
+}
+.clearboth
+{
+	clear: both;
+}
+
+.mmeditposts #uploadimageresults,
+.mmeditalbums #uploadimageresults,
+.mmeditwelcomepage #uploadimageresults
+{
+	width: 665px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 0 0 15px 0;
+	display: block;
+	clear: both;
+	border: 1px dashed #ff0000;
+}
+.mmeditposts #uploadimageresults li,
+.mmeditalbums #uploadimageresults li,
+.mmeditwelcomepage #uploadimageresults li
+{
+	font-size: 12px;
+	text-align: justify;
+	margin: 0 0 3px 0;
+	padding-left: 15px;
+}
+.mmeditposts #uploadimageresults #uploadimageresultsclose,
+.mmeditalbums #uploadimageresults #uploadimageresultsclose,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsclose
+{
+	font-size: 14px;
+	color: #FF0000;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+	display: inline;
+	float: right;
+}
+.mmeditposts #uploadimageresults #uploadimageresultsbanner,
+.mmeditalbums #uploadimageresults #uploadimageresultsbanner,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsbanner
+{
+	font-size: 15px;
+	color: #5F5F5F;
+	font-weight: bold;
+	text-transform: capitalize;
+	display: inline;
+	float: left;
+}
+.mmeditposts #uploadimageresults #uploadimageresultsclose span:hover,
+.mmeditposts #uploadimageresults #uploadimageresultsclose span:active,
+.mmeditposts #uploadimageresults #uploadimageresultsclose span:focus,
+.mmeditalbums #uploadimageresults #uploadimageresultsclose span:hover,
+.mmeditalbums #uploadimageresults #uploadimageresultsclose span:active,
+.mmeditalbums #uploadimageresults #uploadimageresultsclose span:focus,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsclose span:hover,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsclose span:active,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsclose span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.counters
+{
+	color: #999999;
+	font-size: 22px;
+	font-weight: bold;
+}
+.strikethrough
+{
+	text-decoration: line-through;
+	color:#5F5F5F;
+	font-size: 12px;
+	padding: 2px;
+}
+a.login,
+a.login:hover,
+a.login:focus,
+a.login:active
+{
+	color: #FF0000;
+	text-decoration: none;
+}
+.logout a
+{
+	color:#FFFFFF;
+	background-color:#000000;
+	font-size: 16px;
+	position: absolute;
+	padding: 2px;
+	cursor: pointer;
+	top: 0px;
+	right: 0px;
+	text-decoration: none;
+}
+.logout a:hover,
+.logout a:active,
+.logout a:focus
+{
+	color:#FFFFFF;
+	background-color:#FF0000;
+}
+.red
+{
+	color:#FF0000;
+}
+
+#sidebar #navitagsbanner
+{
+	color: #FFFFFF;
+	background-color:#7D7D7D;
+	margin: 5px 0 7px 0;
+	padding: 2px;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+#navitags ul
+{
+	list-style-type:none;
+	text-transform: capitalize;
+}
+#navitags ul li
+{
+	font-size: 12px;
+	display: inline;
+	line-height: 10px;
+}
+#navitags ul li a
+{
+	color: #5F5F5F;
+	padding: 2px;
+	text-decoration: none;
+}
+#navitags ul li a:hover,
+#navitags ul li a:active,
+#navitags ul li a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+#navitags .smallestTag{font-size:9px;}
+#navitags .smallTag{font-size:12px;}
+#navitags .mediumTag{font-size:18px;}
+#navitags .largeTag{font-size:24px;}
+#navitags .largestTag{font-size:30px;}
+
+.commonlinks
+{
+	color: #FF0000;
+	text-decoration: none;
+}
+.commonlinks:hover,
+.commonlinks:active,
+.commonlinks:focus
+{
+	color: #FFFFFF;
+	background-color:#FF0000;
+}
+.bold{font-weight:bold;}
+
+
+.images ul.albumnavi
+{
+	list-style-type:none;
+	float: right;
+}
+.images ul.albumnavi li
+{
+	display: inline;
+}
+.images ul.albumnavi #count
+{
+	margin: 0 10px 0 10px;
+}
+.images ul.albumnavi #imageposition
+{
+	color: #FF0000;
+}
+.images ul.albumnavi #previousimage:hover,
+.images ul.albumnavi #previousimage:focus,
+.images ul.albumnavi #previousimage:active,
+.images ul.albumnavi #nextimage:hover,
+.images ul.albumnavi #nextimage:focus,
+.images ul.albumnavi #nextimage:active
+{
+	color: #FFFFFF;
+	background-color:#FF0000;
+}
+.images ul.imageul
+{
+	list-style-type:none;
+}
+.images ul.imageul li
+{
+	margin: 0 0 5px 0;
+}
+.images ul.imageul .imagefileurls
+{
+	cursor: pointer;
+	margin: 0 0 10px 0;
+}
+.images ul.imageul .imagenames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color:#000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+.images ul.imageul .imagedescriptions
+{
+	text-align: justify;
+	font-weight: normal;
+}
+.images ul.imageul .imagedescriptions:first-letter
+{
+	font-size: 45px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+	margin-right: 3px;
+}
+.images ul.imageul .imagedescriptions:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.images ul.imageul .imagetags
+{
+	clear: both;
+}
+.images ul.imageul .imagetags div
+{
+	font-weight: bold;
+	display: inline;
+}
+.images ul.imageul .imagesubmitiontimestamps
+{
+	font-weight: bold;
+	font-style: italic;
+}
+.images .noimagesnote
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.images ul.tags
+{
+	list-style-type:none;
+	display: inline;
+}
+.images ul.tags li
+{
+	text-transform: capitalize;
+	display: inline;
+	margin: 0 3px 0 0;
+}
+.images ul.tags li a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+	padding: 2px;
+}
+.images ul.tags li a:hover,
+.images ul.tags li a:focus,
+.images ul.tags li a:active
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.albums ul.albumul
+{
+	list-style-type: none;
+	display: block;
+}
+.albums ul.albumul li
+{
+	margin: 0 0 5px 0;
+}
+.albums ul.albumul .albumnames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 0 15px 0;
+	color: #FFFFFF;
+	background-color:#000000;
+	padding: 0 3px 0 3px;
+}
+.albums ul.albumul .albumcovers
+{
+	float:left;
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+.albums ul.albumul .albumdescriptions
+{
+	text-align: justify;
+	min-height: 100px;
+}
+.albums .albumdescriptions:first-letter
+{
+	font-size: 45px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+	margin-right: 3px;
+}
+.albums .albumdescriptions:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.albums ul.albumul .albumupdatedtimestamps
+{
+	font-weight: bold;
+	font-style: italic;
+}
+.albums .albumimagesbanners
+{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 15px 0 0px 0;
+}
+.albums .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+}
+.albums .albumimagesthumbnails
+{
+	width: 660px;
+	float: left;
+	padding: 8px;
+}
+.albums .albumimagesthumbnails .imagethumbs
+{
+	padding: 5px;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
+.albums .albumimagesthumbnails .imagethumbs:hover,
+.albums .albumimagesthumbnails .imagethumbs:active,
+.albums .albumimagesthumbnails .imagethumbs:focus
+{
+	padding-bottom: 2px;
+	border-bottom: 3px solid #5F5F5F;
+}
+.categories .categorynames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0 0 15px 0;
+	background-color:#000000;
+	color: #FFFFFF;
+	padding: 0 3px 0 3px;
+}
+.categories .categoryalbumbanners
+{
+	font-weight: bold;
+	font-size: 16px;
+	margin: 15px 0 15px 0;
+	text-transform:capitalize;
+}
+.categories .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+}
+.categories ul.categoryalbums
+{
+	margin: 0 0 15px 0;
+	list-style-type: none;
+}
+.categories ul.categoryalbums li
+{
+	margin: 0 0 5px 0;
+}
+.categories ul.categoryalbums .albumcovers
+{
+	float:right;
+	margin: 0;
+	padding: 0 5px 5px 5px;
+}
+.categories ul.categoryalbums .albumnames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 5px 0;
+	cursor: pointer;
+}
+.categories ul.categoryalbums .albumnames:hover,
+.categories ul.categoryalbums .albumnames:focus,
+.categories ul.categoryalbums .albumnames:active
+{
+	color: #FFFFFF;
+	background-color:#000000;
+}
+.categories ul.categoryalbums .albumdescriptions
+{
+	text-align:justify;
+	margin: 0 205px 5px 0px;
+	min-height: 200px;
+}
+.categories ul.categoryalbums .albumdescriptions:first-letter
+{
+	font-size: 45px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+	margin-right: 3px;
+}
+.categories ul.categoryalbums .albumdescriptions:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.categories ul.categoryalbums .albumimagecounts
+{
+	text-align: right;
+	font-weight: bold;
+}
+.categories ul.categoryalbums .albumupdatedtimestamps
+{
+	text-align: right;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-style: italic;
+}
+.tags ul.tagul
+{
+	list-style-type: none;
+	display: block;
+}
+.tags ul.tagul li
+{
+	margin: 0 0 5px 0;
+}
+.tags ul.tagul .tagnames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color:#000000;
+	margin: 0 0 15px 0;
+	padding: 0 3px 0 3px;
+}
+.tags .taggedimagesbanners
+{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 15px 0 0px 0;
+}
+.tags .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+}
+.tags .taggedimagesthumbnails
+{
+	width: 660px;
+	float: left;
+	padding: 8px;
+}
+.tags .taggedimagesthumbnails .imagethumbs
+{
+	padding: 5px;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
+.tags .taggedimagesthumbnails .imagethumbs:hover,
+.tags .taggedimagesthumbnails .imagethumbs:active,
+.tags .taggedimagesthumbnails .imagethumbs:focus
+{
+	padding-bottom: 2px;
+	border-bottom: 3px solid #5F5F5F;
+}
+.tags .taggedimagesthumbnails img 
+{
+	border: 0px;
+}
+.tags .othertags
+{
+	text-align: justify;
+	text-transform: capitalize;
+	padding: 5px;
+	border: 1px dashed #7D7D7D
+}
+.tags .othertags ul
+{
+	list-style-type:none;
+}
+.tags .othertags ul li
+{
+	font-size: 12px;
+	display: inline;
+}
+.tags .othertags ul li a
+{
+	color: #5F5F5F;
+	padding: 2px;
+	text-decoration: none;
+}
+.tags .othertags ul li a:hover,
+.tags .othertags ul li a:active,
+.tags .othertags ul li a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.tags .othertags .smallestTag{font-size:9px;}
+.tags .othertags .smallTag{font-size:12px;}
+.tags .othertags .mediumTag{font-size:18px;}
+.tags .othertags .largeTag{font-size:24px;}
+.tags .othertags .largestTag{font-size:30px;}
+
+.taggedimages ul.albumnavi
+{
+	list-style-type:none;
+	float: right;
+}
+.taggedimages ul.albumnavi li
+{
+	display: inline;
+}
+.taggedimages ul.albumnavi #count
+{
+	margin: 0 10px 0 10px;
+}
+.taggedimages ul.albumnavi #imageposition
+{
+	color: #FF0000;
+}
+
+.taggedimages ul.albumnavi #previousimage:hover,
+.taggedimages ul.albumnavi #previousimage:focus,
+.taggedimages ul.albumnavi #previousimage:active,
+.taggedimages ul.albumnavi #nextimage:hover,
+.taggedimages ul.albumnavi #nextimage:focus,
+.taggedimages ul.albumnavi #nextimage:active
+{
+	color: #FFFFFF;
+	background-color:#FF0000;
+}
+
+.taggedimages ul.imageul
+{
+	list-style-type:none;
+
+}
+.taggedimages ul.imageul li
+{
+	margin: 0 0 5px 0;
+}
+.taggedimages ul.imageul .imagefileurls
+{
+	cursor: pointer;
+	margin: 0 0 10px 0;
+}
+.taggedimages ul.imageul .imagenames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color:#000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+.taggedimages ul.imageul .imagedescriptions
+{
+	text-align: justify;
+	font-weight: normal;
+}
+.taggedimages ul.imageul .imagedescriptions:first-letter
+{
+	font-size: 45px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+	margin-right: 3px;
+}
+.taggedimages ul.imageul .imagedescriptions:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.taggedimages ul.imageul .imagetags
+{
+	clear: both;
+}
+.taggedimages ul.imageul .imagetags div,
+.taggedimages ul.imageul .imagealbums div
+{
+	font-weight: bold;
+	display: inline;
+}
+.taggedimages ul.imageul .imagesubmitiontimestamps
+{
+	font-weight: bold;
+	font-style: italic;
+}
+.taggedimages ul.imageul .imagealbums
+{
+	text-transform: capitalize;
+}
+.images .noimagesnote
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.taggedimages ul.tags
+{
+	list-style-type:none;
+	display: inline;
+}
+.taggedimages ul.tags li
+{
+	text-transform: capitalize;
+	display: inline;
+	margin: 0 3px 0 0;
+}
+.taggedimages ul.tags li a,
+.taggedimages .imagealbums a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+	padding: 2px;
+}
+.taggedimages ul.tags li a:hover,
+.taggedimages ul.tags li a:focus,
+.taggedimages ul.tags li a:active,
+.taggedimages .imagealbums a:hover,
+.taggedimages .imagealbums a:focus,
+.taggedimages .imagealbums a:active
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
+.postsarchive .postsarchivebanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.postsarchive .statictips
+{
+	padding: 10px;
+	border: 1px dashed #7D7D7D;
+	color: #5F5F5F;
+	margin: 0 0 20px 0;
+	text-align: center;
+	font-size: 13px;
+	display:none;
+}
+.postsarchive ul.postsarchiveyears
+{
+	width: 104px;
+	height: 400px;
+	float: left;
+	padding: 5px;
+	font-size: 16px;
+	list-style-type:none;
+	background: url('../images/yearsbg.png') no-repeat top right;
+}
+.postsarchive ul.postsarchiveyears li
+{
+	text-align: center;
+	margin: 0 0 5px 0;
+	cursor: pointer;
+	padding: 2px;
+}
+.postsarchive ul.postsarchiveyears li:hover,
+.postsarchive ul.postsarchiveyears li:active,
+.postsarchive ul.postsarchiveyears li:focus
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.postsarchive ul.postsarchivemonths
+{
+	width: 124px;
+	height: 350px;
+	float: left;
+	padding: 5px;
+	font-size: 16px;
+	list-style-type:none;
+	background: url('../images/monthsbg.png') no-repeat center right;
+}
+.postsarchive ul.postsarchivemonths li
+{
+	text-align: center;
+	margin: 0 0 5px 0;
+	cursor: pointer;
+	padding: 2px;
+}
+.postsarchive ul.postsarchivemonths li:hover,
+.postsarchive ul.postsarchivemonths li:active,
+.postsarchive ul.postsarchivemonths li:focus
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.postsarchive ul.postsarchivedays
+{
+	width: 412px;
+	height: 400px;
+	float: left;
+	padding: 5px;
+	font-size: 16px;
+	list-style-type:none;
+	background: url('../images/headlinesbg.png') no-repeat bottom right;
+}
+.postsarchive ul.postsarchivedays li
+{
+	margin: 0 0 5px 0;
+	padding: 5px;
+}
+.postsarchive ul.postsarchivedays li .days
+{
+	color: #FFFFFF;
+	background-color:#000000;
+	padding: 5px;
+	margin: 0 15px 0 0;
+}
+.postsarchive ul.postsarchivedays li .postheadlines
+{
+	font-size: 16px;
+	padding: 5px;
+	margin: 0 15px 0 0;
+	font-style: italic;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.postsarchive ul.postsarchivedays li .postheadlines a
+{
+	color: #000000;
+	text-decoration: none;
+}
+.postsarchive ul.postsarchivedays li:hover,
+.postsarchive ul.postsarchivedays li:active,
+.postsarchive ul.postsarchivedays li:focus,
+.postsarchive ul.postsarchivedays li .postheadlines a:hover,
+.postsarchive ul.postsarchivedays li .postheadlines a:active,
+.postsarchive ul.postsarchivedays li .postheadlines a:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.postsarchive .biglineverticals01
+{
+	width: 5px;
+	height: 300px;
+	float: left;
+	background: url('../images/biglinev.gif') no-repeat bottom;
+}
+.postsarchive .biglineverticals02
+{
+	width: 5px;
+	height: 500px;
+	float: left;
+	background: url('../images/biglinev.gif') no-repeat bottom;
+}
+
+.posts .postbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.posts ul.postul
+{
+	list-style-type:none;
+}
+.posts ul.postul .postheadlines
+{
+	text-align:right;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0 0 5px 0;
+}
+.posts ul.postul .postheadlines .posttypes
+{
+	float: left;
+	font-size: 11px;
+	line-height: 35px;
+	color: #FF0000;
+	text-transform: capitalize;
+}
+.posts ul.postul .displayposts
+{
+	cursor:pointer;
+}
+.posts ul.postul .displayposts:hover,
+.posts ul.postul .displayposts:active,
+.posts ul.postul .displayposts:focus
+{
+	color: #FFFFFF;
+	background-color:#000000;
+}
+.posts ul.postul .postcreationtimestamps
+{
+	float: left;
+	width: 10px;
+	height: 10px;
+	font-size: 60px;
+	line-height: 45px;
+	position:relative;
+	top: 0px;
+	left: 130px;
+	font-style: italic;
+}
+.posts ul.postul .postbodies
+{
+	vertical-align: top;
+	text-align:right;
+	position:relative;
+	left: 280px;
+	top: 0px;
+	width: 400px;
+	min-height: 80px;
+}
+.posts ul.postul .postbodies:first-letter
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.posts ul.postul .postbodies:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.posts ul.postul .postsignature
+{
+	display: block;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-style:italic;
+	margin: 10px 0 0 0;
+	line-height: 25px;
+	text-align: right;
+	text-transform: capitalize;
+}
+.posts ul.postul li.displaycomments
+{
+	margin: 10px 0 30px 0;
+	clear: both;
+	float: left;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: bold;
+	position:relative;
+	left: 130px;
+	cursor: pointer;
+	color: #5F5F5F;
+	padding: 0 3px 0 3px;
+	text-decoration: none;
+}
+.posts ul.postul li.leavenewcomment a
+{
+	margin: 20px 0 30px 0;
+	float: right;
+	vertical-align:bottom;
+	padding: 0 3px 0 3px;
+	font-size: 11px;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	color: #5F5F5F;
+	text-decoration: none;
+}
+.posts ul.postul li.displaycomments:hover,
+.posts ul.postul li.displaycomments:active,
+.posts ul.postul li.displaycomments:focus,
+.posts ul.postul li.leavenewcomment a:hover,
+.posts ul.postul li.leavenewcomment a:active,
+.posts ul.postul li.leavenewcomment a:focus
+{
+	color: #FFFFFF;
+	background-color:#000000;	
+}
+.posts ul.postul .red
+{
+	font-size: 20px;
+	font-style: italic;
+	display: block;
+	line-height: 3px;
+}
+.posts ul.postul li.postulclear
+{
+	clear: both;
+}
+.posts ul.postimageuls
+{
+	list-style-type: none;
+	margin: 0 0 10px 0;
+	float: right;
+	width: 500px;
+}
+.posts ul.postimageuls li.postimagebanners
+{
+	display: block;
+	text-align:right;
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 17px;
+	margin: 15px 0 5px 0;
+}
+.posts ul.postimageuls li.postimagethumbs
+{
+	padding: 3px;
+	width: 102px;
+	height: 102px;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+	float: right;
+}
+.posts ul.postimageuls li.postimagethumbs:hover,
+.posts ul.postimageuls li.postimagethumbs:active,
+.posts ul.postimageuls li.postimagethumbs:focus
+{
+	padding-bottom: 0;
+	border-bottom: 3px solid #5F5F5F;
+}
+.posts ul.postimageuls li.postimagethumbs img
+{
+	border: 0;
+}
+.posts .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+}
+.posts ul.postlinks
+{
+	margin-top: 70px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+}
+.posts ul.postlinks li
+{
+	display: inline;
+}
+.posts ul.postlinks #prev
+{
+	float: left;
+}
+.posts ul.postlinks #next
+{
+	float: right;
+}
+.posts ul.postlinks #arch
+{
+	float: left;
+	margin-left: 240px;
+}
+.posts ul.postlinks #archalone
+{
+	margin-left: 245px;
+}
+.posts ul.postlinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.posts ul.postlinks li a:hover,
+.posts ul.postlinks li a:active,
+.posts ul.postlinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.posts #postarchlink
+{
+	border: 1px solid #000000;
+}
+.posts ul.postul li.commentsdisplay
+{
+	clear: both;
+	margin: 0 0 15px 130px;
+}
+.posts ul.postul li.commentsdisplay .newcommentloader
+{
+	margin: 5px 0 0 120px;
+}
+.posts ul.postul li.commentsdisplay ul.comments
+{
+	list-style-type: none;
+}
+.posts ul.postul li.commentsdisplay ul.comments li
+{
+	margin: 0 0 20px 0;
+}
+.posts ul.postul li.commentsdisplay ul.comments li a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px;
+	text-transform: capitalize;
+}
+.posts ul.postul li.commentsdisplay ul.comments li a:hover,
+.posts ul.postul li.commentsdisplay ul.comments li a:focus,
+.posts ul.postul li.commentsdisplay ul.comments li a:active
+{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.posts ul.postul li.commentsdisplay .biglines
+{
+	width: 550px;
+}
+.posts ul.postul li.commentsdisplay ul.comments .timestamp
+{
+	font-weight: bold;
+	padding: 0 2px 0 2px;
+}
+.posts ul.postul li.commentsdisplay ul.comments .reply
+{
+	left: 130px;
+	width: 415px;
+	position:relative;
+	text-align:right;
+	padding: 3px;
+	font-style: italic;
+}
+.posts ul.postul li.commentsdisplay ul.comments .reply:first-letter
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+.posts ul.postul li.commentsdisplay ul.comments .reply:first-line
+{	
+	font-weight: bold;
+	font-size: 11px;
+}
+.posts ul.postul li.commentsdisplay ul.comments .deletecommentbuttons
+{
+	float: right;
+	cursor: pointer;
+	color: #FF0000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.posts ul.postul li.commentsdisplay ul.comments .deletecommentbuttons:active,
+.posts ul.postul li.commentsdisplay ul.comments .deletecommentbuttons:focus,
+.posts ul.postul li.commentsdisplay ul.comments .deletecommentbuttons:hover
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes
+{
+	list-style-type:none;
+	display:none;
+	float:right;
+}
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li
+{
+	display: inline;
+	margin: 0 5px 0 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li span
+{
+	color: #FF0000;
+	cursor: pointer;
+}
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li span:hover,
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li span:active,
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+
+.info .infobanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.info ul.infoelements
+{
+	list-style-type:none;
+}
+.info ul.infoelements li
+{
+	display: inline;
+	float: left;
+	margin: 3px;
+}
+.info ul.infoelements li.infobio
+{
+	text-align:justify;
+	padding: 3px;
+	width: 350px;
+}
+.info ul.infoelements li.infobio:first-letter
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.info ul.infoelements li.infobio:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.index #maincolumn
+{
+	margin: 0 0 0 0;
+}
+.index #spacer
+{
+	clear: both;
+	height: 3px;
+}
+.index #maincolumn #welcomeimage
+{
+	margin: 0 0 15px 0;
+	width: 681px;
+}
+.index #maincolumn #welcomepagetext
+{
+	text-align: justify;
+}
+
+.fuerrors #sidebar
+{
+	height: 55px;
+}
+.fuerrors .notes
+{
+	color: #333333;
+	font-size: 12px;
+	text-align: justify;
+	background-color: #FFFFFF;
+	padding: 8px;
+	margin: 25px 70px 25px 70px;
+}
+.fuerrors .fuerrorsbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.fuerrors .fuerrorssubtitle
+{
+	text-align: center;
+	font-size: 20px;
+	margin: 15px 0 15px 0;
+	font-weight: bold;
+}
+
+.browsersettings #sidebar
+{
+	height: 55px;
+}
+.browsersettings .notes
+{
+	color: #333333;
+	font-size: 12px;
+	text-align: justify;
+	background-color: #FFFFFF;
+	padding: 8px;
+	margin: 25px 70px 25px 70px;
+}
+.browsersettings .browsersettingsbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.browsersettings #js_instructions,
+.browsersettings #c_instructions
+{
+	list-style-type: none;
+	margin: 0 0 25px 0;
+}
+.browsersettings #js_instructions li,
+.browsersettings #c_instructions li
+{
+	margin: 0 0 10px 0;
+}
+.browsersettings #js_instructions h3,
+.browsersettings #c_instructions h3
+{
+	font-size: 20px;
+	margin: 0 0 5px 0;
+}
+.browsersettings #js_instructions li .red,
+.browsersettings #c_instructions li .red
+{
+	font-size: 13px;
+	display: block;
+	margin: 0 0 5px 0;
+}
+.browsersettings #js_instructions ul.subul,
+.browsersettings #c_instructions ul.subul
+{
+	list-style-type: decimal;
+}
+.browsersettings #js_instructions ul.subul li,
+.browsersettings #c_instructions ul.subul li
+{
+	margin: 0 0 2px 25px;
+}
+
+
+.mmeditalbums #album
+{
+}
+.mmeditalbums #cover
+{
+	width: 100px;
+	height: 100px;
+}
+.mmeditalbums .uploadimagesection,
+.mmeditalbums .editalbuminfosection
+{
+	display: none;
+}
+.mmeditalbums #albumimages
+{
+}
+.mmeditalbums .imagesbanners
+{
+	margin: 0 0 5px 0;
+	padding: 0 5px 0 0;
+	clear: both;
+}
+.mmeditalbums .imagesbanners #banner
+{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0 0 5px 0;
+}
+.mmeditalbums .imagesbanners #organizealbumimages
+{
+	float: right;
+	line-height: 20px;
+	vertical-align: bottom;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+}
+.mmeditalbums .imagesbanners #organizealbumimages #organizealbumimagescheckbox
+{
+	vertical-align: top;
+	cursor: pointer;
+	width: 19px;
+	height: 16px;
+}
+.mmeditalbums .albumcontents
+{
+	width: 660px;
+	background-color: #313131;
+	float: left;
+	padding: 8px;
+}
+.mmeditalbums ul.imagesections
+{
+	border: 5px solid #313131;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.mmeditalbums ul.imagesections:hover,
+.mmeditalbums ul.imagesections:active,
+.mmeditalbums ul.imagesections:focus
+{
+	border: 5px solid #D50000;
+}
+.mmeditalbums ul.imagesections li.imagethumbs
+{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.mmeditalbums ul.imagesections li.imageinfos
+{
+	display: none;
+	float: left;
+	/*width: 288px;*/
+	width: 400px;
+	height: 150px;
+	padding: 0 10px 0 10px;
+}
+
+.mmeditalbums ul.imagesections li.imageinfos .imagesubmitiontimestamp
+{
+	display: block;
+	float: right;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagecovers
+{
+	display: block;
+	text-align: right;
+	text-transform: capitalize;
+	margin: 0 0 10px 0;
+	padding: 3px;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagecovers .imagecovers
+{
+	vertical-align: middle;
+	cursor: pointer;
+	width: 17px;
+	height: 19px;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagecovers
+{
+	cursor: pointer;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagenames,
+.mmeditalbums ul.imagesections li.imageinfos .editimagedescriptions,
+.mmeditalbums ul.imagesections li.imageinfos .editimagetags,
+.mmeditalbums ul.imagesections li.imageinfos .editimagealbums
+{
+	display: block;
+	cursor: pointer;
+	background-color: #F2F2F2;
+	margin: 0 0 10px 0;
+	padding: 3px;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagenames
+{
+	text-transform: uppercase;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagedescriptions
+{
+	height: 95px;
+	overflow: hidden;
+	text-align: justify;
+}
+.mmeditalbums ul.albumbanners li.albumnames span.editalbumnames:hover,
+.mmeditalbums ul.albumbanners li.albumdescriptions span.editalbumdescriptions:hover,
+.mmeditalbums ul.imagesections li.imageinfos .editimagenames:hover,
+.mmeditalbums ul.imagesections li.imageinfos .editimagedescriptions:hover,
+.mmeditalbums ul.imagesections li.imageinfos .editimagetags:hover,
+.mmeditalbums ul.imagesections li.imageinfos .editimagealbums:hover
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+.mmeditalbums ul.imagesections li.imageinfos .imagefrms,
+.mmeditalbums ul.albumbanners .albumfrms
+{
+	display: none;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editdescriptionbuttons
+{
+	/*margin: 15px 0 0 184px;*/
+	margin: 5px 0 0 0;
+}
+.mmeditalbums ul.imagesections li.imageoptions
+{
+	display: none;
+}
+.mmeditalbums ul.imagesections li.imageoptions .closeimagesections
+{
+	float: left;
+	margin: 135px 12px 5px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+.mmeditalbums ul.imagesections li.imageoptions .deleteimages
+{
+	float: right;
+	margin: 135px 12px 5px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditalbums ul.imagesections li.imageoptions .deleteimages span:hover,
+.mmeditalbums ul.imagesections li.imageoptions .deleteimages span:active,
+.mmeditalbums ul.imagesections li.imageoptions .deleteimages span:focus,
+.mmeditalbums ul.imagesections li.imagedeletes .completedeleteimages span:hover,
+.mmeditalbums ul.imagesections li.imagedeletes .completedeleteimages span:active,
+.mmeditalbums ul.imagesections li.imagedeletes .completedeleteimages span:focus,
+.mmeditalbums ul.imagesections li.imagedeletes .dontdeleteimages span:hover,
+.mmeditalbums ul.imagesections li.imagedeletes .dontdeleteimages span:active,
+.mmeditalbums ul.imagesections li.imagedeletes .dontdeleteimages span:focus,
+.mmeditalbums ul.imagesections li.imageoptions .closeimagesections span:hover,
+.mmeditalbums ul.imagesections li.imageoptions .closeimagesections span:active,
+.mmeditalbums ul.imagesections li.imageoptions .closeimagesections span:focus,
+.mmeditalbums #album #uploadimageresults #uploadimageresultsclose span:hover
+{
+	background-color:#FF0000;
+	color:#FFFFFF;
+}
+.mmeditalbums ul.imagesections li.imagedeletes
+{
+	display: none;
+	color: #7A7A7A;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 5px 5px 0 10px;
+	float: left;
+}
+.mmeditalbums ul.imagesections li.imagedeletes .completedeleteimages span,
+.mmeditalbums ul.imagesections li.imagedeletes .dontdeleteimages span
+{
+
+	color: #FF0000;
+	cursor: pointer;
+	margin: 0 2px 0 0;
+}
+.mmeditalbums ul.albumbanners
+{
+	width: 680px;
+	list-style-type: none;
+	margin: 0 0 15px 0;
+	padding: 5px;
+	display: inline;
+	float: left;
+}
+.mmeditalbums .albumvisibility
+{
+	display: inline;
+	float: left;
+}
+.mmeditalbums .editablumupdateds
+{
+	width: 678px;
+	margin: 0 0 10px 0;
+	padding: 3px 0 3px 0;
+	text-align: right;
+}
+.mmeditalbums ul.albumbanners li
+{
+	display: block;
+	float: left;
+}
+.mmeditalbums ul.albumbanners li.albumnames
+{
+	width: 565px;
+	border-bottom: 2px solid #000000;
+	margin: 0 0 5px 5px;
+	padding: 0 3px 0 0;
+}
+.mmeditalbums ul.albumbanners li.albumnames span.editalbumnames
+{
+	font-size: 17px;
+	display: block;
+	width: 568px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.mmeditalbums ul.albumbanners li.albumdescriptions
+{
+	width: 565px;
+	padding: 3px;
+	min-height: 68px;
+	max-height: 68px;
+	margin: 0 0 5px 5px;
+	text-align: justify;
+}
+.mmeditalbums ul.albumbanners li.albumdescriptions .editalbumdescriptions
+{
+	cursor: pointer;
+	display: block;
+	min-height: 68px;
+	max-height: 68px;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+.mmeditalbums ul.uploadimagesections
+{
+	font-size: 14px;
+	width: 665px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 25px 0 25px 0;
+	display: inline;
+	float: left;
+	border: 1px dashed #C9C9C9;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages
+{
+	display: block;
+	margin: 10px 0 0 20px;
+}
+.mmeditalbums ul.uploadimagesections li.supportedimagefiletypes
+{
+	display: block;
+	font-style: italic;
+	margin: 0 0 0 190px;
+	font-size: 12px;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload
+{
+	display: none;
+	width: 269px;
+	font-size: 12px;
+	color: #5F5F5F;
+	border: 1px solid #919191;
+	border-top: 0px;
+	background-color: #F2F2F2;
+	margin: 0 0 0 168px;
+	list-style-type:none;
+	padding: 2px;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload li
+{
+	padding: 3px;
+	cursor: pointer;
+}
+
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload li.imagestouploadbordertop
+{
+	border-top: 1px dashed #919191;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload li:hover
+{
+	color: #000000;
+	background-color: #C0CCD3;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload li span
+{
+	margin: 0 0 0 5px;
+}
+
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload .deleteimagestoupload
+{
+	vertical-align: middle;
+}
+/*
+###################################################################
+###################################################################
+###################################################################
+###################################################################
+###################################################################
+###################################################################
+*/
+.mmeditalbums .loaderimg
+{
+	vertical-align: middle;
+	margin: 0 0 10px 0;
+	padding: 3px;
+}
+.mmeditalbums #uploadimagesfrm #submituploadfrm .loaderimg
+{
+	margin: 0px;
+	padding: 0px;
+}
+.mmeditalbums .error
+{
+	font-size: 12px;
+	margin: 0 0 0 5px;
+	display: inline; 
+	color: #ff0000;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mmeditalbums .albumcontents .error
+{
+	font-size: 11px;
+	margin: 0 0 10px 5px;
+	display: block;
+}
+.mmeditalbums ul.imagetagsuggestions 
+{
+	color: #5F5F5F;
+	list-style-type: none;
+	position: relative;
+	border: 1px dashed #919191;
+	background-color: #F2F2F2;
+	margin: 0 0 10px 0;
+	padding: 2px;
+
+}
+.mmeditalbums ul.imagetagsuggestions li 
+{
+	display: inline;
+	margin: 0 0 0 5px;
+	cursor: pointer;
+	padding: 2px;
+}
+.mmeditalbums ul.imagetagsuggestions li:hover,
+.mmeditalbums ul.imagetagsuggestions li:focus,
+.mmeditalbums ul.imagetagsuggestions li:active
+{
+	color: #313131;
+	text-decoration: underline;
+}
+.mmeditalbums .albumnotes
+{
+	margin: 5px 0 15px 0;
+	padding: 5px;
+	border: 1px dashed #FF0000;
+}
+
+.mmeditcomments .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+	width: 330px;
+}
+.mmeditcomments .newcommentbanner 
+{
+	color: #5F5F5F;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px 0 0 0;
+}
+.mmeditcomments .newcommentmessages
+{
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 25px;
+	margin: 5px 0 0 0;
+}
+.mmeditcomments .newcommentloader
+{
+	margin: 5px 0 0 0;
+}
+.mmeditcomments ul.newcommentfrms
+{
+	list-style-type: none;
+	margin: 10px 0 0 0;
+}
+.mmeditcomments ul.newcommentfrms li
+{
+	margin: 0 0 7px 0;	
+}
+.mmeditcomments ul.newcommentfrms .text
+{
+	width: 315px;
+}
+.mmeditcomments ul.newcommentfrms .button
+{
+	width: 320px;
+}
+.mmeditcomments ul.newcommentfrms .charcounters
+{
+	margin: 0 0 15px 0;
+}
+.mmeditcomments ul.comments
+{
+	list-style-type: none;
+	margin: 0 0 15px 0;
+}
+.mmeditcomments ul.comments li
+{
+	margin: 0 0 30px 0;
+}
+.mmeditcomments ul.comments li a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px;
+	text-transform: capitalize;
+}
+.mmeditcomments ul.comments li a:hover,
+.mmeditcomments ul.comments li a:focus,
+.mmeditcomments ul.comments li a:active
+{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.mmeditcomments ul.comments .timestamp
+{
+	font-weight: bold;
+	padding: 0 2px 0 2px;
+}
+.mmeditcomments ul.comments .reply
+{
+	text-align: justify;
+	padding: 5px;
+	font-style: italic;
+}
+.mmeditcomments ul.comments .reply:first-letter
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+.mmeditcomments ul.comments .reply:first-line
+{	
+	font-weight: bold;
+	font-size: 11px;
+}
+.mmeditcomments ul.comments .deletecommentbuttons
+{
+	float: right;
+	cursor: pointer;
+	color: #FF0000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditcomments ul.comments .deletecommentbuttons:active,
+.mmeditcomments ul.comments .deletecommentbuttons:focus,
+.mmeditcomments ul.comments .deletecommentbuttons:hover
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditcomments ul.comments ul.commentdeletes
+{
+	list-style-type:none;
+	display:none;
+	float:right;
+}
+.mmeditcomments ul.comments ul.commentdeletes li
+{
+	display: inline;
+	margin: 0 5px 0 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditcomments ul.comments ul.commentdeletes li span
+{
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditcomments ul.comments ul.commentdeletes li span:hover,
+.mmeditcomments ul.comments ul.commentdeletes li span:active,
+.mmeditcomments ul.comments ul.commentdeletes li span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditcomments .responses .biglines
+{
+	width: 320px;
+}
+.mmeditcomments .responsesbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color:#000000;
+	margin: 0 0 15px 0;
+	padding: 0 3px 0 3px;
+}
+.mmeditcomments .responses
+{
+	width: 320px;
+	float: right;
+	padding: 4px;
+	margin: 0 0 0 0;
+}
+.mmeditcomments ul.postul
+{
+	list-style-type:none;
+	width: 330px;
+	padding: 5px;
+	float: left;
+}
+.mmeditcomments ul.postul .postheadlines
+{
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 13px;
+	margin: 0 0 5px 0;
+}
+.mmeditcomments ul.postul .posttypes
+{
+	font-size: 11px;
+	color: #FF0000;
+	text-transform: capitalize;
+	float: right;
+}
+.mmeditcomments ul.postul .postcreationtimestamps
+{
+	font-weight: bold;
+	padding: 0 2px 0 2px;
+}
+.mmeditcomments ul.postul .postbodies
+{
+	vertical-align: top;
+	text-align: justify;
+	position:relative;
+	top: 0px;
+	min-height: 80px;
+}
+.mmeditcomments ul.postul .postbodies:first-letter
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.mmeditcomments ul.postul .postbodies:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.mmeditcomments ul.postul .postsignature
+{
+	display: block;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-style:italic;
+	margin: 10px 0 0 0;
+	line-height: 25px;
+	text-align: right;
+
+}
+.mmeditcomments ul.postul .red
+{
+	font-size: 20px;
+	font-style: italic;
+	display: block;
+	line-height: 3px;
+}
+.mmeditcomments ul.postul li.postulclear
+{
+	clear: both;
+}
+.mmeditcomments ul.postimageuls
+{
+	list-style-type: none;
+	margin: 0 0 10px 0;
+	float: right;
+}
+.mmeditcomments ul.postimageuls li.postimagebanners
+{
+	display: block;
+	text-align:right;
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 17px;
+	margin: 15px 0 5px 0;
+}
+.mmeditcomments ul.postimageuls li.postimagethumbs img
+{
+	border: 0;
+}
+.mmeditcomments ul.postimageuls li.postimagethumbs
+{
+	padding: 3px;
+	width: 102px;
+	height: 102px;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+	float: right;
+}
+.mmeditcomments ul.postimageuls li.postimagethumbs:hover,
+.mmeditcomments ul.postimageuls li.postimagethumbs:active,
+.mmeditcomments ul.postimageuls li.postimagethumbs:focus
+{
+	padding-bottom: 0;
+	border-bottom: 3px solid #5F5F5F;
+}
+
+.mmeditimages #catoptions
+{
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+}
+.mmeditimages #catoptions a
+{
+	color: #5F5F5F;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.mmeditimages #catoptions #addcategory
+{
+	padding: 0 5px 0 5px;
+}
+.mmeditimages #catoptions #catoptionsline
+{
+	width: 100px;
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/line.gif') no-repeat top;
+}
+.mmeditimages #catoptions a:hover,
+.mmeditimages #catoptions a:active,
+.mmeditimages #catoptions a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+
+.mmeditimages .categoriesbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+
+.mmeditimages #categories
+{
+	list-style-type: none;
+}
+.mmeditimages #categories li.cats
+{
+	float: left;
+	display: block;
+	margin: 0 0 2px 0;
+}
+.mmeditimages ul.catbanners
+{
+	line-height: 28px;
+	display: block;
+	width: 671px;
+	background-color: #E1E1E1;
+	float: left;
+	padding: 0 5px 0 5px;
+}
+.mmeditimages ul.catbanners li
+{
+	display: inline;
+}
+.mmeditimages li.catnames span
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+	cursor: pointer;
+}
+.mmeditimages li.catnames span.catsps:hover,
+.mmeditimages li.catnames span.catsps:active,
+.mmeditimages li.catnames span.catsps:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditimages li.catinfos
+{
+	float: right;
+}
+.mmeditimages li.catinfos span
+{
+	margin: 0 5px 0 0;
+}
+
+.mmeditimages li.catinfos span.togglers
+{
+	color: #FF0000;
+	text-decoration:none;
+	cursor: pointer;
+}
+.mmeditimages li.catinfos span.togglers:hover,
+.mmeditimages li.catinfos span.togglers:active,
+.mmeditimages li.catinfos span.togglers:focus
+{
+	text-decoration:underline;
+}
+
+.mmeditimages li.catnames span.catfrms
+{
+	margin: 2px 0 0 0;
+	display: none;
+}
+.mmeditimages #categories li.cats .separator
+{
+	clear: both;
+}
+
+.mmeditimages #categories li.cats .catsections
+{
+	display: block;
+	width: 667px;
+	border: 2px solid #E1E1E1;
+	border-top: 0px;
+	font-size: 12px;
+	padding: 5px;
+	float: left;
+}
+
+.mmeditimages .catsections ul.catoptions,
+.mmeditimages .catsections ul.catdeletes,
+.mmeditimages .catsections ul.caterrmsguls
+{
+	color: #5F5F5F;
+	list-style-type: none;
+	padding: 0 5px 0 5px;
+	margin: 5px 0 5px 0;
+}
+
+.mmeditimages .catsections ul.catdeletes,
+.mmeditimages .catsections ul.caterrmsguls
+{
+	display: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditimages .catsections ul.catdeletes li,
+.mmeditimages .catsections ul.caterrmsguls li
+{
+	display: inline;
+	margin: 0 0 0 5px;
+}
+.mmeditimages .catsections ul.catdeletes .deletecatmsg
+{
+	margin: 0;
+}
+.mmeditimages .catsections ul.catoptions li
+{
+	display: inline;
+	color: #5F5F5F;
+	cursor: pointer;
+}
+
+.mmeditimages .catsections li.deletecatmsg,
+.mmeditimages .catsections ul.caterrmsguls li.caterrmsgs,
+.mmeditimages .catsections .albums ul.albumdatas li.albumdeletes .deletealbummsg
+{
+	margin: 0 0 5px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditimages .catsections .albums ul.albumdatas li.albumdeletes .deletealbummsg
+{
+	display: inline;
+	margin: 0 5px 0 0;
+}
+
+.mmeditimages .error,
+.mmeditimages li.catnames div.error
+{ 
+	font-size: 11px;
+	margin: 0 0 0 5px;
+	display: inline; 
+	color: #ff0000;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mmeditimages li.catnames .loaderimg
+{
+	vertical-align: middle;
+}
+
+.mmeditimages .albumbanners
+{
+	text-transform: uppercase;
+	color: #7A7A7A;
+	display: block;
+	margin: 10px 5px 8px 5px;
+	border-bottom: 2px #C9C9C9 solid;
+	font-weight: bold;
+	clear: both;
+}
+.mmeditimages .albums
+{
+	border: 1px #C9C9C9 solid;
+	display: block;
+	float: left;
+	margin: 0 5px 10px 5px;
+	width: 650px;
+	padding: 5px;
+}
+.mmeditimages .albums .albumcovers
+{
+	min-width: 192px;
+	min-height: 192px;
+	float: left;
+}
+.mmeditimages .albums ul.albumdatas
+{
+	list-style-type: none;
+	float: right;
+	width: 440px;
+	padding: 0 5px 0 5px;
+}
+.mmeditimages .albums ul.albumdatas li
+{
+	display: block;
+}
+.mmeditimages .albums ul.albumdatas li span
+{
+	display: block;
+	margin: 0 0 5px 0;
+}
+.mmeditimages .albums ul.albumdatas .editdescriptionbuttons,
+.mmeditimages .albums ul.albumdatas li .charcounters,
+.mmeditimages .albums ul.albumdatas li .charcounters .counters
+{
+	display: inline;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumnames
+{
+	cursor: pointer;
+	background-color: #F0F0F0;
+	text-transform: uppercase;
+	padding: 3px;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumdescriptions
+{
+	cursor: pointer;
+	background-color: #F0F0F0;
+	height: 160px;
+	overflow: hidden;
+	padding: 3px;
+	text-align: justify;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumtagids
+{
+	cursor: pointer;
+	background-color: #F0F0F0;
+	padding: 3px;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos .editimagescounts,
+.mmeditimages .albums ul.albumdatas li.albuminfos .editablumupdateds
+{
+	text-align: right;
+}
+.mmeditimages .albums ul.albumdatas li .albumfrms
+{
+	display: none;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes
+{
+	display: none;
+}
+.mmeditimages .albums .albumoptions
+{
+	margin: 5px 0 0 0;
+	float: left;
+	width: 650px;
+}
+.mmeditimages .albums .albumoptions .editalbumimages span
+{
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #5F5F5F;
+	cursor: pointer;
+}
+.mmeditimages .albums .albumoptions .deletealbums span
+{
+	float: right;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditimages .albums .albumfrms .error
+{ 
+	font-size: 11px;
+	margin: 5px 5px 0px 5px;
+	display: block; 
+	color: #ff0000;
+	text-transform: capitalize;
+}
+.mmeditimages #categories ul.catdeletes li.completedeletecategories span,
+.mmeditimages #categories ul.catdeletes li.dontdeletecategories span,
+.mmeditimages #categories ul.caterrmsguls .caterrmsgokbutts span,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span
+{
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumnames:hover,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumnames:active,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumnames:focus,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumdescriptions:hover,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumdescriptions:active,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumdescriptions:focus,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumtagids:hover,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumtagids:active,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumtagids:focus,
+.mmeditimages .albums .albumoptions .editalbumimages span:hover,
+.mmeditimages .albums .albumoptions .editalbumimages span:active,
+.mmeditimages .albums .albumoptions .editalbumimages span:focus,
+.mmeditimages .albums .albumoptions .deletealbums span:hover,
+.mmeditimages .albums .albumoptions .deletealbums span:active,
+.mmeditimages .albums .albumoptions .deletealbums span:focus,
+.mmeditimages #categories ul.catdeletes li.completedeletecategories span:hover,
+.mmeditimages #categories ul.catdeletes li.completedeletecategories span:active,
+.mmeditimages #categories ul.catdeletes li.completedeletecategories span:focus,
+.mmeditimages #categories ul.catdeletes li.dontdeletecategories span:hover,
+.mmeditimages #categories ul.catdeletes li.dontdeletecategories span:active,
+.mmeditimages #categories ul.catdeletes li.dontdeletecategories span:focus,
+.mmeditimages #categories ul.catoptions li:hover,
+.mmeditimages #categories ul.catoptions li:active,
+.mmeditimages #categories ul.catoptions li:focus,
+.mmeditimages #categories ul.caterrmsguls .caterrmsgokbutts span:hover,
+.mmeditimages #categories ul.caterrmsguls .caterrmsgokbutts span:active,
+.mmeditimages #categories ul.caterrmsguls .caterrmsgokbutts span:focus,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span:hover,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span:active,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span:focus,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span:hover,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span:active,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes
+{
+	margin: 0 5px 5px 5px;
+}
+.mmeditimages albums ul.albumdatas li.albumdeletes
+{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums
+{
+	display: inline;
+	margin: 0 5px 0 0;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span
+{
+	font-weight: bold;
+	display: inline;
+	text-transform: uppercase;
+	color: #FF0000;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span
+{
+	font-weight: bold;
+	display: inline;
+	text-transform: uppercase;
+	color: #FF0000;
+}
+.mmeditimages .albums ul.albumdatas li span.albumcatcomboboxes
+{
+	display: inline;
+}
+.mmeditimages .catnotes
+{
+	margin: 5px 0 15px 0;
+	padding: 5px;
+	border: 1px dashed #FF0000;
+}
+.mmeditimages .hidden,
+.mmeditimages .catsp .hidden,
+.mmeditimages .albums ul.albumdatas .albumfrms .hidden
+{
+	display: none;
+}
+
+.mmeditinfo .editinfobanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.mmeditinfo ul.infoelements
+{
+	list-style-type: none;
+}
+.mmeditinfo ul.infoelements li.infoelement
+{
+	margin: 0 0 15px 0;
+}
+.mmeditinfo .profileinformationfrms
+{
+	display: none;
+}
+.mmeditinfo ul.infoelements li .editprofileinformations
+{
+	cursor: pointer;
+	display: block;
+	min-height: 215px;
+	max-height: 215px;
+	padding: 3px;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+.mmeditinfo ul.infoelements li .editprofileinformations:hover
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+input.text, textarea.text, select.text
+{
+	background: #f8f8f8 url(../images/inputbackground.gif) repeat-x top left;
+	border: 1px solid #000000;
+	border-color: #c0c4c6 #e0e4e6 #e0e4e6 #c0c4c6;
+	color: #808486;
+	padding:2px 0 2px 4px;
+	margin: 0 3px 0 0;
+	width: 190px;
+}
+
+input.text.highlight,
+textarea.text.highlight,
+input.text:focus,
+textarea.text:focus
+{
+	background: transparent;
+	border-color: #a0b0b8;
+	color: #204050;
+}
+
+.mmeditimages .catnames input.texthighlight,
+.mmeditimages .catnames textarea.text.highlight,
+.mmeditimages .catnames input.text:focus,
+.mmeditimages .catnames textarea.text:focus
+{
+	background-color: #FFFFFF;
+	border-color: #a0b0b8;
+	color: #204050;
+}
+
+input.button {
+	color: #808486;
+	border: 1px solid #000000;
+	border-color:#c0c4c6 #e0e4e6 #e0e4e6 #c0c4c6;
+	margin: 0 3px 0 0;
+	padding: 2px 4px 2px 4px;
+	width: 50px;
+	height: 22px;
+	cursor: pointer;
+	background-color: #f8f8f8;
+}
+input.button:hover,
+input.button:focus
+{
+	border-color: #a0b0b8;
+	color: #204050;
+}
+
+.mmeditimages input.text, select.text
+{
+	width: 327px;
+	margin: 0px;
+}
+.mmeditimages .catfrms input.text
+{
+	width: 180px;
+}
+.mmeditimages select.text
+{
+	width: 334px;
+	height: 22px;
+}
+.mmeditimages textarea.text
+{
+	width: 433px;
+}
+.mmeditimages input.button
+{
+	margin: 0 0 0 3px;
+}
+.mmeditimages .editdescriptionbuttons input.button
+{
+	margin-top: 5px;
+}
+.mmeditimages li.albuminfos textarea.text
+{
+	height: 133px;
+}
+.mmeditalbums ul.imagesections input.text
+{
+	/*width: 170px;*/
+	width: 288px;
+	margin: 0 0 10px 0;
+}
+.mmeditalbums ul.imagesections input.button
+{
+	margin: 0 0 10px 0;
+	padding: 0px;
+}
+.mmeditalbums ul.imagesections .editdescriptionbuttons input.button
+{
+	margin: 5px 0 10px 0;
+	padding: 0px;
+}
+.mmeditalbums ul.imagesections textarea.text
+{
+	/*width: 281px;*/
+	width: 393px;
+	height: 83px;
+}
+.mmeditalbums select.text
+{
+	/*max-width: 180px;*/
+	width: 291px;
+	height: 22px;
+	margin: 0 5px 0 0;
+	vertical-align: top;
+}
+.mmeditalbums input.button
+{
+	margin: 0px;
+}
+.mmeditalbums ul.albumbanners input.text
+{
+	width: 186px;
+	margin: 0px;
+}
+.mmeditalbums ul.albumbanners input.button
+{
+	display: inline;
+	padding: 0px;
+}
+.mmeditalbums ul.albumbanners textarea.text
+{
+	width: 453px;
+	height: 60px;
+	margin: 0px;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages input.text,
+.mmeditposts ul.uploadimagesections li.uploadimages input.text,
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages input.text
+{
+	width: 350px;
+	margin: 0 0 0 15px;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages input.button,
+.mmeditposts ul.uploadimagesections li.uploadimages input.button,
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages input.button
+{
+	width: 80px;
+	padding: 0px;
+	height: 22px;
+}
+.mmeditposts .postfrms textarea.text
+{
+	width: 662px;
+	height: 100px;
+}
+.mmeditsettings .text
+{
+	width: 200px;
+	margin: 0 0 0 0;
+}
+.mmeditsettings .button
+{
+	margin: 0 0 0 3px;
+}
+.mmeditwelcomepage .welcomepageelements .profilewelcomepagefrms textarea.text
+{
+	width: 674px;
+	height: 118px;
+	margin: 0px;
+}
+.mmeditinfo .infoelements .profileinformationfrms textarea.text
+{
+	width: 674px;
+	height: 188px;
+	margin: 0px;
+}
+
+.mmeditposts #postsoptions
+{
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+}
+.mmeditposts #postsoptions a
+{
+	color: #5F5F5F;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.mmeditposts #postsoptions #addpost
+{
+	padding: 0 5px 0 5px;
+}
+.mmeditposts #postsoptions #postoptionsline
+{
+	width: 115px;
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/line.gif') no-repeat top;
+}
+.mmeditposts #postsoptions a:hover,
+.mmeditposts #postsoptions a:active,
+.mmeditposts #postsoptions a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditposts .postsbanner
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+
+.mmeditposts #posts
+{
+	list-style-type: none;
+}
+.mmeditposts #posts li.postelements
+{
+	float: left;
+	display: block;
+	margin: 0 0 2px 0;
+}
+.mmeditposts ul.postelementsbanners
+{
+	line-height: 28px;
+	display: block;
+	width: 671px;
+	border-bottom: 2px solid #000000;
+	/*background: url('../images/bigline.gif') no-repeat bottom;*/
+	float: left;
+	padding: 0 5px 0 5px;
+}
+.mmeditposts ul.postelementsbanners li
+{
+	display: inline;
+}
+.mmeditposts li.postheadlines span
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+	cursor: pointer;
+}
+.mmeditposts li.postheadlines span.postsps:hover,
+.mmeditposts li.postheadlines span.postsps:active,
+.mmeditposts li.postheadlines span.postsps:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditposts li.postinfos
+{
+	float: right;
+}
+.mmeditposts li.postinfos span
+{
+	margin: 0 5px 0 0;
+}
+.mmeditposts li.postinfos span.togglers
+{
+	color: #FF0000;
+	text-decoration:none;
+	cursor: pointer;
+}
+.mmeditposts li.postinfos span.togglers:hover,
+.mmeditposts li.postinfos span.togglers:active,
+.mmeditposts li.postinfos span.togglers:focus
+{
+	text-decoration:underline;
+}
+.mmeditposts li.postheadlines span.postfrms,
+.mmeditposts span.postfrms
+{
+	margin: 2px 0 0 0;
+	display: none;
+}
+.mmeditposts #posts li.postelements .separator
+{
+	clear: both;
+}
+.mmeditposts #posts li.postelements .postsections
+{
+	display: block;
+	width: 667px;
+
+	border-top: 0px;
+	font-size: 12px;
+	padding: 5px;
+	float: left;
+}
+.mmeditposts .postsections ul.postoptions
+{
+	list-style-type: none;
+	display: block;
+	margin: 15px 0 10px 0;
+}
+.mmeditposts .postsections ul.postoptions li
+{
+	display: inline;
+}
+.mmeditposts .postsections ul.postoptions li.postcommentbutts
+{
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #5F5F5F;
+	cursor: pointer;
+}
+.mmeditposts .postsections ul.postoptions li.postdeletebutts
+{
+	float: right;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditposts .postsections ul.postoptions li:hover,
+.mmeditposts .postsections ul.postoptions li:active,
+.mmeditposts .postsections ul.postoptions li:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditposts .postsections ul.postdeletes,
+.mmeditposts .postsections ul.posterrmsguls
+{
+	color: #5F5F5F;
+	list-style-type: none;
+	margin: 15px 0 0 0;
+	display: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditposts .postsections ul.postdeletes li,
+.mmeditposts .postsections ul.posterrmsguls li
+{
+	display: inline;
+	cursor: pointer;
+}
+.mmeditposts .postsections ul.postdeletes li.completedeleteposts,
+.mmeditposts .postsections ul.postdeletes li.dontdeleteposts,
+.mmeditposts .postsections ul.posterrmsguls li.posterrmsgokbutts
+{
+	color: #FF0000;
+	margin: 0 0 0 5px;
+}
+.mmeditposts .postsections ul.postdeletes li.completedeleteposts span:hover,
+.mmeditposts .postsections ul.postdeletes li.completedeleteposts span:active,
+.mmeditposts .postsections ul.postdeletes li.completedeleteposts span:focus,
+.mmeditposts .postsections ul.postdeletes li.dontdeleteposts span:hover,
+.mmeditposts .postsections ul.postdeletes li.dontdeleteposts span:active,
+.mmeditposts .postsections ul.postdeletes li.dontdeleteposts span:focus,
+.mmeditposts .postsections ul.posterrmsguls li.posterrmsgokbutts span:hover,
+.mmeditposts .postsections ul.posterrmsguls li.posterrmsgokbutts span:active,
+.mmeditposts .postsections ul.posterrmsguls li.posterrmsgokbutts span:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditposts .error,
+.mmeditposts li.postheadlines div.error
+{ 
+	font-size: 11px;
+	margin: 0 0 0 5px;
+	display: inline; 
+	color: #ff0000;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mmeditposts .editpostbodycontainers .error
+{
+	line-height: 35px;
+}
+.mmeditposts li.postheadlines .loaderimg
+{
+	vertical-align: middle;
+}
+.mmeditposts .uploadimagesections .loaderimg
+{
+	vertical-align: middle;
+}
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodycontainers
+{
+	height: 130px;
+}
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodies
+{
+	cursor: pointer;
+	display: block;
+	height: 130px;
+	background-color: #F0F0F0;
+	padding: 3px;
+	overflow: hidden;
+	text-align: justify;
+}
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodies:hover,
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodies:active,
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodies:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditposts li.postelements .postsections .editbodybuttons
+{
+	float: left;
+	margin: 5px 0 0 0;
+}
+
+.mmeditposts .postimagesbanners
+{
+	margin: 25px 0 5px 0;
+	padding: 0 5px 0 0;
+}
+.mmeditposts .postimagesbanners .banners
+{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0 0 5px 0;
+}
+.mmeditposts .postimagesbanners .postimagesnotes
+{
+	float: right;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 21px;
+	vertical-align: bottom;
+}
+.mmeditposts .postimagecontents
+{
+	width: 660px;
+	background-color: #313131;
+	float: left;
+	padding: 8px;
+}
+.mmeditposts .postimagecontents .imagesections
+{
+	border: 5px solid #313131;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.mmeditposts .postimagecontents .imagesections:hover,
+.mmeditposts .postimagecontents .imagesections:active,
+.mmeditposts .postimagecontents .imagesections:focus
+{
+	border: 5px solid #D50000;
+}
+.mmeditposts .postimagecontents .imagesupdateimagethumbs
+{
+	display: inline;
+	border: 5px solid #313131;
+	width: 100px;
+	height: 100px;
+}
+.mmeditposts .postimagecontents .imagesections li.imagethumbs
+{
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.mmeditposts .postimagecontents .imagesections li.imagedeletes
+{
+	display: none;
+	color: #5F5F5F;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0 5px 0 5px;
+	float: left;
+}
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .completedeleteimages span,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .dontdeleteimages span
+{
+	color: #FF0000;
+	cursor: pointer;
+	margin: 0 2px 0 0;
+}
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .completedeleteimages span:hover,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .completedeleteimages span:active,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .completedeleteimages span:focus,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .dontdeleteimages span:hover,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .dontdeleteimages span:active,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .dontdeleteimages span:focus
+{
+	background-color:#FF0000;
+	color:#FFFFFF;
+}
+.mmeditposts .postnotes
+{
+	margin: 10px 0 10px 0;
+	clear: both;
+}
+.mmeditposts .postnotes .postcounts
+{
+	float: left;
+	margin: 0 0 5px 0;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.mmeditposts .postnotes .imagesupdatesnotes
+{
+	float: right;
+	margin: 0 0 5px 0;
+	font-size: 11px;
+	font-weight: bold;
+}
+.mmeditposts .uploadimagesections
+{
+	font-size: 14px;
+	width: 660px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 25px 0 25px 0;
+	display: inline;
+	float: left;
+	border: 1px dashed #C9C9C9;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages
+{
+	display: block;
+	margin: 10px 0 0 20px;
+}
+.mmeditposts ul.uploadimagesections li.supportedimagefiletypes
+{
+	display: block;
+	font-style: italic;
+	margin: 0 0 0 190px;
+	font-size: 12px;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload
+{
+	display: none;
+	width: 269px;
+	font-size: 12px;
+	color: #5F5F5F;
+	border: 1px solid #919191;
+	border-top: 0px;
+	background-color: #F2F2F2;
+	margin: 0 0 0 168px;
+	list-style-type:none;
+	padding: 2px;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload li
+{
+	padding: 3px;
+	cursor: pointer;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload li.imagestouploadbordertop
+{
+	border-top: 1px dashed #919191;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload li:hover
+{
+	color: #000000;
+	background-color: #C0CCD3;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload li span
+{
+	margin: 0 0 0 5px;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload .deleteimagestoupload
+{
+	vertical-align: middle;
+}
+
+.mmeditposts ul.editpostlinks
+{
+/*
+	margin: 5px 0px 20px 0px;
+	border-bottom: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+*/
+	width: 675px;
+	margin-top: 50px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+	float: left;
+}
+.mmeditposts ul.editpostlinks li
+{
+	display: inline;
+}
+.mmeditposts ul.editpostlinks #prev
+{
+	float: left;
+}
+.mmeditposts ul.editpostlinks #next
+{
+	float: right;
+}
+.mmeditposts ul.editpostlinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.mmeditposts ul.editpostlinks li a:hover,
+.mmeditposts ul.editpostlinks li a:active,
+.mmeditposts ul.editpostlinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+
+.mmeditsettings .settingsbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.mmeditsettings ul.settingscategories
+{
+	list-style-type: none;
+}
+.mmeditsettings ul.settingscategories li
+{
+	margin: 5px 0 5px 0;
+}
+.mmeditsettings ul.profileoptions
+{
+	padding: 10px;
+	list-style-type: none;
+}
+.mmeditsettings ul.profileoptions li
+{
+	font-size: 12px;
+	margin: 5px 0 5px 0;
+	line-height: 22px;
+}
+
+.mmeditsettings li.albums
+{
+	float: left;
+}
+.mmeditsettings .statictips
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.mmeditsettings .biglinehorizontal
+{
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat top;
+}
+
+.mmeditsettings li.comments,
+.mmeditsettings li.homepage,
+.mmeditsettings li.links,
+.mmeditsettings li.imagesupdates
+{
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.mmeditsettings li.albums ul
+{
+	font-size: 11px;
+	list-style-type:none;
+	padding: 10px;
+	text-transform: capitalize;
+	width: 315px;
+	min-height: 200px;
+	margin: 5px 0 0 0;
+}
+.mmeditsettings li.albums #invisiblealbums
+{
+	float: left;
+	background: url('../images/invisiblebg.png') no-repeat top right;
+}
+.mmeditsettings li.albums #visiblealbums
+{
+	float: right;
+	background: url('../images/visiblebg.png') no-repeat top right;
+}
+.mmeditsettings li.albums ul li
+{
+	margin: 2px 0 2px 0;
+	padding: 1px 2px 1px 2px;
+	cursor: pointer;
+}
+.mmeditsettings li.albums ul li:hover,
+.mmeditsettings li.albums ul li:active,
+.mmeditsettings li.albums ul li:focus
+{
+	background-color: #FF0000;
+	color:#FFFFFF;
+}
+.mmeditsettings .biglineverticals
+{
+	width: 5px;
+	margin: 5px 0 0 0;
+	padding: 2px 0 2px 0;
+	height: 200px;
+	float: left;
+	background: url('../images/biglinev.gif') no-repeat bottom;
+}
+
+.mmeditsettings .elements
+{
+	display: inline;
+}
+
+.mmeditsettings .editprofileelements
+{
+	font-weight: bold;
+	text-transform: capitalize;
+	cursor: pointer;
+	display: block;
+	margin: 0 0 0 100px;
+}
+.mmeditsettings .editprofileelements:hover,
+.mmeditsettings .editprofileelements:active,
+.mmeditsettings .editprofileelements:focus
+{
+	color: #FFFFFF;
+	background-color:#FF0000;
+	padding: 0 2px 0 2px;
+}
+
+.mmeditsettings .profilefrms
+{
+	margin: 0 0 0 100px;
+}
+
+.mmeditsettings .profilefrms
+{
+	display: none;
+}
+
+.mmeditsettings .elements
+{
+	margin: 0 7px 0 0;
+	float: left;
+}
+.mmeditsettings .error
+{
+	font-size: 11px;
+	margin: 0 0 0 5px;
+	display: inline; 
+	color: #ff0000;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.mmeditwelcomepage .welcomepagebanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.mmeditwelcomepage ul.welcomepageelements
+{
+	list-style-type: none;
+}
+.mmeditwelcomepage ul.welcomepageelements li.welcomepageelement
+{
+	margin: 0 0 15px 0;
+}
+.mmeditwelcomepage .profilewelcomepagefrms
+{
+	display: none;
+}
+.mmeditwelcomepage ul.welcomepageelements li .editwelcomepagetexts
+{
+	cursor: pointer;
+	display: block;
+	min-height: 145px;
+	max-height: 145px;
+	padding: 3px;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+.mmeditwelcomepage ul.welcomepageelements li .editwelcomepagetexts:hover
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditwelcomepage .welcomepageimagesbanners #banner
+{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0 0 5px 0;
+}
+.mmeditwelcomepage ul.uploadimagesections
+{
+	font-size: 14px;
+	width: 665px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 10px 0 25px 0;
+	display: inline;
+	float: left;
+	border: 1px dashed #C9C9C9;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages
+{
+	display: block;
+	margin: 10px 0 0 20px;
+}
+.mmeditwelcomepage ul.uploadimagesections li.supportedimagefiletypes
+{
+	display: block;
+	font-style: italic;
+	margin: 0 0 0 190px;
+	font-size: 12px;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload
+{
+	display: none;
+	width: 269px;
+	font-size: 12px;
+	color: #5F5F5F;
+	border: 1px solid #919191;
+	border-top: 0px;
+	background-color: #F2F2F2;
+	margin: 0 0 0 168px;
+	list-style-type:none;
+	padding: 2px;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload li
+{
+	padding: 3px;
+	cursor: pointer;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload li.imagestouploadbordertop
+{
+	border-top: 1px dashed #919191;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload li:hover
+{
+	color: #000000;
+	background-color: #C0CCD3;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload li span
+{
+	margin: 0 0 0 5px;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload .deleteimagestoupload
+{
+	vertical-align: middle;
+}
+.mmeditwelcomepage .welcomepageimagescontents
+{
+	width: 660px;
+	background-color: #313131;
+	float: left;
+	padding: 8px;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections
+{
+	border: 5px solid #313131;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections:hover,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections:active,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections:focus
+{
+	border: 5px solid #D50000;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagethumbs
+{
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes
+{
+	display: none;
+	color: #5F5F5F;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0 5px 0 5px;
+	float: left;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .completedeleteimages span,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .dontdeleteimages span
+{
+	color: #FF0000;
+	cursor: pointer;
+	margin: 0 2px 0 0;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .completedeleteimages span:hover,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .completedeleteimages span:active,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .completedeleteimages span:focus,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .dontdeleteimages span:hover,
+
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .dontdeleteimages span:active,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .dontdeleteimages span:focus
+{
+	background-color:#FF0000;
+	color:#FFFFFF;
+}
+.mmlogin .mmloginbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 0 15px 0;
+	color: #FFFFFF;
+	background-color:#000000;
+	padding: 0 3px 0 3px;
+}
+.mmlogin #mmloginmessages
+{
+	height: 15px;
+	color: #FF0000;
+	font-size: 15px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mmlogin #mmloginfrms input
+{
+	background: #f8f8f8 url(../images/inputbackground.gif) repeat-x top left;
+	border: 1px solid #000000;
+	border-color: #c0c4c6 #e0e4e6 #e0e4e6 #c0c4c6;
+}
+
+.mmlogin #mmloginfrms input.highlight,
+.mmlogin #mmloginfrms input.highlight,
+.mmlogin #mmloginfrms input:focus,
+.mmlogin #mmloginfrms input:focus
+{
+	background: transparent;
+	border-color: #a0b0b8;
+	color: #204050;
+}
+
+.mmlogin #mmloginfrms
+{
+	list-style-type: none;
+}
+.mmlogin #mmloginfrms li
+{
+	margin: 0 0 25px 0;
+}
+.mmlogin #mmloginfrms #mmloginusrnamefield
+{
+	position: relative;
+	top: 15px;
+	left: 225px;
+}
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment1
+{
+	position: relative;
+	top: 5px;
+	left: 225px;
+}
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment2
+{
+	position: relative;
+	top: 5px;
+	left: 225px;
+}
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment3
+{
+	position: relative;
+	top: 5px;
+	left: 225px;
+}
+.mmlogin #mmloginfrms label
+{
+	font-size: 60px;
+	text-transform: capitalize;
+	width: 10px;
+	display: block;
+	cursor: pointer;
+	float: left;
+	color: #7D7D7D;
+	vertical-align: bottom;
+}
+.mmlogin #mmloginfrms #mmloginusrnamefield
+{
+	color: #CED0D5;
+	height: 180px;
+	width: 420px;
+	font-size: 150px;
+	padding: 10px;
+	border: 1px solid #5F5F5F;
+}
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment1,
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment2,
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment3
+{
+	color: #CED0D5;
+	height: 180px;
+	width: 122px;
+	font-size: 150px;
+	padding: 10px;
+	border: 1px solid #5F5F5F;
+	margin: 0 2px 0 0;
+}
+.mmlogin #mmloginfrms #mmloginsubmit .button
+{
+	font-size: 12px;
+	line-height: 20px;
+	vertical-align: middle;
+	width: 100%;
+}
+.mmlogin .loaderimg
+{
+	vertical-align: middle;
+	margin: 200px 0px 0px 318px;
+	width: 25px;
+	height: 25px;
+}
+.mmlogin .successfulloginmessege1
+{
+	font-size: 25px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.mmlogin .successfulloginmessege2
+{
+	color: #FF0000;
+	font-size: 60px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.mmlogin .successfulloginmessege3
+{
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+}
+.mmualeditcomments .ualbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.mmualeditcomments #noresultsmessage 
+{
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+.mmualeditcomments #noresultsmessage span
+{
+	display: block;
+}
+.mmualeditcomments #noresultsmessage #sorry
+{
+	color:#FF0000;
+	font-size: 60px;
+	text-transform:uppercase;
+}
+.mmualeditcomments #noresultsmessage #notreally
+{
+	margin: 0 0 10px 0;
+}
+.mmualeditcomments #noresultsmessage #reasonnotreallysorry
+{
+	font-size: 13px;
+	font-weight: bold;
+}
+.mmualeditcomments .usersactionlogentries
+{
+	list-style-type: none;
+}
+.mmualeditcomments .usersactionlogentries li
+{
+	margin: 0 0 3px 0;
+	padding: 2px;
+}
+.mmualeditcomments .usersactionlogentries li span
+{
+	margin: 0 10px 0 0;
+}
+.mmualeditcomments .usersactionlogentries #firstrow
+{
+	line-height: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 0 25px 0;
+	text-transform: uppercase;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .when
+{
+	width: 160px;
+	float:left;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .where
+{
+	float:left;
+	margin: 0 20px 0 20px;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .who
+{
+	float:left;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .what
+{
+	display: block;
+	width: 250px;
+	margin: 0 0 0 420px;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+	width: 100%;
+	float: left;
+}
+.mmualeditcomments .usersactionlogentries li span.submitiontimestamp
+{
+	font-size: 15px;
+	float:left;
+	font-weight: bold;
+	width: 160px;
+}
+.mmualeditcomments .usersactionlogentries li span.submitiontimestamp div
+{
+	display: inline;
+}
+.mmualeditcomments .usersactionlogentries li span.forpost
+{
+	font-size: 12px;
+	float:left;
+	margin: 0 25px 0 25px;
+}
+.mmualeditcomments .usersactionlogentries li span.fromuser
+{
+	font-size: 12px;
+	float:left;
+	text-transform:capitalize;
+}
+.mmualeditcomments .usersactionlogentries li span.reply
+{
+	display: block;
+	padding: 2px;
+	text-transform: capitalize;
+	width: 250px;
+	margin: 0 0 0 420px;
+	font-style: italic;
+}
+.mmualeditcomments .usersactionlogentries li span.reply:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.mmualeditcomments .forpost a,
+.mmualeditcomments .fromuser a 
+{
+	font-size: 12px;
+	color: #5F5F5F;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.mmualeditcomments .fromuser a
+{
+	font-weight: bold;
+}
+.mmualeditcomments .forpost a:hover,
+.mmualeditcomments .forpost a:active,
+.mmualeditcomments .forpost a:focus
+{
+	text-decoration: underline;
+}
+.mmualeditcomments .fromuser a:hover,
+.mmualeditcomments .fromuser a:active,
+.mmualeditcomments .fromuser a:focus
+{
+	color:#FFFFFF;
+	background-color: #FF0000;
+}
+.mmualeditcomments li.odd
+{
+	background-color: #EFEFEF;
+}
+.mmualeditcomments ul.editcommentslinks
+{
+	width: 675px;
+	margin-top: 50px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+	float: left;
+}
+.mmualeditcomments ul.editcommentslinks li
+{
+	display: inline;
+}
+.mmualeditcomments ul.editcommentslinks #prev
+{
+	float: left;
+}
+.mmualeditcomments ul.editcommentslinks #next
+{
+	float: right;
+}
+.mmualeditcomments ul.editcommentslinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.mmualeditcomments ul.editcommentslinks li a:hover,
+.mmualeditcomments ul.editcommentslinks li a:active,
+.mmualeditcomments ul.editcommentslinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.mmeditualerrors .ualbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.mmeditualerrors #noresultsmessage 
+{
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+.mmeditualerrors #noresultsmessage span
+{
+	display: block;
+}
+.mmeditualerrors #noresultsmessage #luckyyou
+{
+	color:#FF0000;
+	font-size: 60px;
+	text-transform:uppercase;
+}
+.mmeditualerrors #noresultsmessage #reasonluckyyou
+{
+	font-size: 13px;
+	font-weight: bold;
+}
+.mmeditualerrors .usersactionlogentries
+{
+	list-style-type: none;
+}
+.mmeditualerrors .usersactionlogentries li
+{
+	margin: 0 0 3px 0;
+	padding: 2px;
+}
+.mmeditualerrors li.odd
+{
+	background-color: #EFEFEF;
+}
+.mmeditualerrors .usersactionlogentries li span
+{
+	margin: 0 10px 0 0;
+}
+.mmeditualerrors .usersactionlogentries #firstrow
+{
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 25px 0;
+	text-transform: uppercase;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .timestamp
+{
+	width: 160px;
+	float:left;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .userip
+{
+	float:left;
+	margin-left: 10px;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .privileges
+{
+	float:left;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .error
+{
+	display: block;
+	width: 330px;
+	margin: 0 0 0 350px;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+	width: 100%;
+	float: left;
+}
+.mmeditualerrors .usersactionlogentries li span.actiondatetime
+{
+	font-size: 15px;
+	float:left;
+	font-weight: bold;
+	width: 160px;
+}
+.mmeditualerrors .usersactionlogentries li span.userip
+{
+	font-size: 12px;
+	float:left;
+	margin-left: 10px;
+}
+.mmeditualerrors .usersactionlogentries li span.userprivileges
+{
+	font-size: 12px;
+	float:left;
+	text-transform:capitalize;
+}
+.mmeditualerrors .usersactionlogentries li span.message
+{
+	display: block;
+	text-align: justify;
+	padding: 2px;
+	text-transform: capitalize;
+	width: 330px;
+	margin: 0 0 0 350px;
+}
+.mmeditualerrors .usersactionlogentries li span.message:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries
+{
+	list-style-type:none;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries li
+{
+	border: 0px;
+	margin: 0 0 3px 0;
+	padding: 0 2px 2px 2px;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries li.errortypes
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries li.dberrorquery
+{
+	font-size: 12px;
+	font-style:italic;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries li.dberrortypes
+{
+}
+
+.mmeditualerrors ul.editerrorlinks
+{
+	width: 675px;
+	margin-top: 50px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+	float: left;
+}
+.mmeditualerrors ul.editerrorlinks li
+{
+	display: inline;
+}
+.mmeditualerrors ul.editerrorlinks #prev
+{
+	float: left;
+}
+.mmeditualerrors ul.editerrorlinks #next
+{
+	float: right;
+}
+.mmeditualerrors ul.editerrorlinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.mmeditualerrors ul.editerrorlinks li a:hover,
+.mmeditualerrors ul.editerrorlinks li a:active,
+.mmeditualerrors ul.editerrorlinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.mmeditualroutine .ualbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+
+.mmeditualroutine #noresultsmessage 
+{
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+.mmeditualroutine #noresultsmessage span
+{
+	display: block;
+}
+.mmeditualroutine #noresultsmessage #howcome
+{
+	color:#FF0000;
+	font-size: 60px;
+	text-transform:uppercase;
+}
+.mmeditualroutine #noresultsmessage #reasonhowcome
+{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.mmeditualroutine .usersactionlogentries
+{
+	list-style-type: none;
+}
+.mmeditualroutine .usersactionlogentries li
+{
+	margin: 0 0 3px 0;
+	padding: 0 2px 2px 2px;
+}
+.mmeditualroutine li.odd
+{
+	background-color: #EFEFEF;
+}
+.mmeditualroutine .usersactionlogentries li span
+{
+	margin: 0 10px 0 0;
+}
+.mmeditualroutine .usersactionlogentries #firstrow
+{
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 25px 0;
+	text-transform: uppercase;
+}
+.mmeditualroutine .usersactionlogentries #firstrow .timestamp
+{
+	width: 160px;
+	float:left;
+}
+.mmeditualroutine .usersactionlogentries #firstrow .userip
+{
+	float:left;
+	margin: 0 0 0 25px;
+}
+.mmeditualroutine .usersactionlogentries #firstrow .action
+{
+	display: block;
+	width: 350px;
+	margin: 0 0 0 320px;
+}
+.mmeditualroutine .usersactionlogentries #firstrow .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+	width: 100%;
+	float: left;
+}
+
+.mmeditualroutine .usersactionlogentries li span.actiondatetime
+{
+	font-size: 15px;
+	float:left;
+	font-weight: bold;
+	width: 160px;
+}
+.mmeditualroutine .usersactionlogentries li span.userip
+{
+	font-size: 12px;
+	float: left;
+	margin: 0 0 0 25px;
+}
+.mmeditualroutine .usersactionlogentries li span.message
+{
+	display: block;
+	text-align: justify;
+	padding: 2px;
+	text-transform: capitalize;
+	width: 350px;
+	margin: 0 0 0 320px;
+}
+.mmeditualroutine .usersactionlogentries li span.message:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.mmeditualroutine ul.editroutinelinks
+{
+	width: 675px;
+	margin-top: 50px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+	float: left;
+}
+.mmeditualroutine ul.editroutinelinks li
+{
+	display: inline;
+}
+.mmeditualroutine ul.editroutinelinks #prev
+{
+	float: left;
+}
+.mmeditualroutine ul.editroutinelinks #next
+{
+	float: right;
+}
+.mmeditualroutine ul.editroutinelinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.mmeditualroutine ul.editroutinelinks li a:hover,
+.mmeditualroutine ul.editroutinelinks li a:active,
+.mmeditualroutine ul.editroutinelinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.mmeditposts .hidden,
+.mmeditposts .postsp .hidden
+{
+	display: none;
+}
+.mmeditposts .postslineseperator
+{
+	width: 670px;
+	height: 25px;
+	margin: 1px 0 0 0;
+	background: url('../images/seperator.gif') no-repeat center;
+}
+
+.hidden
+{
+	display: none;
+}
+.mmeditsettings #togglelinks
+{
+	display: none;
+}
+.logout,
+#legalshit,
+#mainnavi,
+#adminmodebanner,
+#adminnavi,
+.separator,
+#navitagsbanner,
+#navitags,
+#sidefooter,
+#mainfooter,
+.images ul.albumnavi #previousimage,
+.images ul.albumnavi #nextimage,
+.images #infonote,
+.images #enlargenote,
+.taggedimages #enlargenote,
+.taggedimages #infonote,
+.taggedimages ul.albumnavi #previousimage,
+.taggedimages ul.albumnavi #nextimage,
+.posts ul.postul li.commentsdisplay ul.newcommentfrms,
+.posts ul.postul li.commentsdisplay .newcommentmessages,
+.posts ul.postul li.commentsdisplay .newcommentbanner 
+{
+	display: none;
+}

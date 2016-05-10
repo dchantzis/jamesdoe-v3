@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmeditwelcomepage .welcomepagebanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.mmeditwelcomepage ul.welcomepageelements
+{
+	list-style-type: none;
+}
+.mmeditwelcomepage ul.welcomepageelements li.welcomepageelement
+{
+	margin: 0 0 15px 0;
+}
+.mmeditwelcomepage .profilewelcomepagefrms
+{
+	display: none;
+}
+.mmeditwelcomepage ul.welcomepageelements li .editwelcomepagetexts
+{
+	cursor: pointer;
+	display: block;
+	min-height: 145px;
+	max-height: 145px;
+	padding: 3px;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+.mmeditwelcomepage ul.welcomepageelements li .editwelcomepagetexts:hover
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditwelcomepage .welcomepageimagesbanners #banner
+{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0 0 5px 0;
+}
+.mmeditwelcomepage .welcomepageimagesbanners #welcomepageimagesnotes
+{
+	float: right;
+	font-size: 11px;
+	font-weight: bold;
+	width: 350px;
+	vertical-align: bottom;
+	text-align: right;
+	margin: 0 2px 0 0;
+}
+.mmeditwelcomepage ul.uploadimagesections
+{
+	font-size: 14px;
+	width: 665px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 10px 0 25px 0;
+	display: inline;
+	float: left;
+	border: 1px dashed #C9C9C9;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages
+{
+	display: block;
+	margin: 10px 0 0 20px;
+}
+.mmeditwelcomepage ul.uploadimagesections li.supportedimagefiletypes
+{
+	display: block;
+	font-style: italic;
+	margin: 0 0 0 190px;
+	font-size: 12px;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload
+{
+	display: none;
+	width: 269px;
+	font-size: 12px;
+	color: #5F5F5F;
+	border: 1px solid #919191;
+	border-top: 0px;
+	background-color: #F2F2F2;
+	margin: 0 0 0 168px;
+	list-style-type:none;
+	padding: 2px;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload li
+{
+	padding: 3px;
+	cursor: pointer;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload li.imagestouploadbordertop
+{
+	border-top: 1px dashed #919191;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload li:hover
+{
+	color: #000000;
+	background-color: #C0CCD3;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload li span
+{
+	margin: 0 0 0 5px;
+}
+.mmeditwelcomepage ul.uploadimagesections li.uploadimages ul.imagestoupload .deleteimagestoupload
+{
+	vertical-align: middle;
+}
+.mmeditwelcomepage .welcomepageimagescontents
+{
+	width: 660px;
+	background-color: #313131;
+	float: left;
+	padding: 8px;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections
+{
+	border: 5px solid #313131;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections:hover,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections:active,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections:focus
+{
+	border: 5px solid #D50000;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagethumbs
+{
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes
+{
+	display: none;
+	color: #5F5F5F;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0 5px 0 5px;
+	float: left;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .completedeleteimages span,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .dontdeleteimages span
+{
+	color: #FF0000;
+	cursor: pointer;
+	margin: 0 2px 0 0;
+}
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .completedeleteimages span:hover,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .completedeleteimages span:active,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .completedeleteimages span:focus,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .dontdeleteimages span:hover,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .dontdeleteimages span:active,
+.mmeditwelcomepage .welcomepageimagescontents .imagesections li.imagedeletes .dontdeleteimages span:focus
+{
+	background-color:#FF0000;
+	color:#FFFFFF;
+}
+.mmeditwelcomepage .hidden
+{
+	display: none;
+}

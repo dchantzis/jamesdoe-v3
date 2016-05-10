@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmualeditcomments .ualbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.mmualeditcomments #noresultsmessage 
+{
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+.mmualeditcomments #noresultsmessage span
+{
+	display: block;
+}
+.mmualeditcomments #noresultsmessage #sorry
+{
+	color:#FF0000;
+	font-size: 60px;
+	text-transform:uppercase;
+}
+.mmualeditcomments #noresultsmessage #notreally
+{
+	margin: 0 0 10px 0;
+}
+.mmualeditcomments #noresultsmessage #reasonnotreallysorry
+{
+	font-size: 13px;
+	font-weight: bold;
+}
+.mmualeditcomments .usersactionlogentries
+{
+	list-style-type: none;
+}
+.mmualeditcomments .usersactionlogentries li
+{
+	margin: 0 0 3px 0;
+	padding: 2px;
+}
+.mmualeditcomments .usersactionlogentries li:hover
+{
+	background-color: #C1C1C1;
+	color: #FFFFFF;
+}
+.mmualeditcomments .usersactionlogentries li span
+{
+	margin: 0 10px 0 0;
+}
+.mmualeditcomments .usersactionlogentries #firstrow
+{
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 25px 0;
+	text-transform: uppercase;
+}
+.mmualeditcomments .usersactionlogentries #firstrow:hover
+{
+	background: none;
+	color: #5F5F5F;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .when
+{
+	width: 160px;
+	float:left;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .where
+{
+	float:left;
+	margin: 0 20px 0 20px;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .who
+{
+	float:left;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .what
+{
+	display: block;
+	width: 250px;
+	margin: 0 0 0 420px;
+}
+.mmualeditcomments .usersactionlogentries #firstrow .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+	width: 100%;
+	float: left;
+}
+.mmualeditcomments .usersactionlogentries li span.submitiontimestamp
+{
+	font-size: 15px;
+	float:left;
+	font-weight: bold;
+	width: 160px;
+}
+.mmualeditcomments .usersactionlogentries li span.submitiontimestamp div
+{
+	display: inline;
+}
+.mmualeditcomments .usersactionlogentries li span.forpost
+{
+	font-size: 12px;
+	float:left;
+	margin: 0 25px 0 25px;
+}
+.mmualeditcomments .usersactionlogentries li span.fromuser
+{
+	font-size: 12px;
+	float:left;
+	text-transform:capitalize;
+}
+.mmualeditcomments .usersactionlogentries li span.reply
+{
+	display: block;
+	padding: 2px;
+	text-transform: capitalize;
+	width: 250px;
+	margin: 0 0 0 420px;
+	font-style: italic;
+}
+.mmualeditcomments .usersactionlogentries li span.reply:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.mmualeditcomments .forpost a,
+.mmualeditcomments .fromuser a 
+{
+	font-size: 12px;
+	color: #5F5F5F;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.mmualeditcomments .fromuser a
+{
+	font-weight: bold;
+}
+.mmualeditcomments .forpost a:hover,
+.mmualeditcomments .forpost a:active,
+.mmualeditcomments .forpost a:focus
+{
+	text-decoration: underline;
+}
+.mmualeditcomments .fromuser a:hover,
+.mmualeditcomments .fromuser a:active,
+.mmualeditcomments .fromuser a:focus
+{
+	color:#FFFFFF;
+	background-color: #FF0000;
+}
+.mmualeditcomments li.odd
+{
+	background-color: #EFEFEF;
+}
+.mmualeditcomments ul.edituallinks
+{
+	width: 675px;
+	margin-top: 50px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+	float: left;
+}
+.mmualeditcomments ul.edituallinks li
+{
+	display: inline;
+}
+.mmualeditcomments ul.edituallinks #prev
+{
+	float: left;
+}
+.mmualeditcomments ul.edituallinks #next
+{
+	float: right;
+}
+.mmualeditcomments ul.edituallinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.mmualeditcomments ul.edituallinks li a:hover,
+.mmualeditcomments ul.edituallinks li a:active,
+.mmualeditcomments ul.edituallinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.mmualeditcomments .hidden
+{
+	display: none;
+}

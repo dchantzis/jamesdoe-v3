@@ -1,0 +1,462 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmeditposts #postsoptions
+{
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+}
+.mmeditposts #postsoptions a
+{
+	color: #5F5F5F;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.mmeditposts #postsoptions #addpost
+{
+	padding: 0 5px 0 5px;
+}
+.mmeditposts #postsoptions #postoptionsline
+{
+	width: 115px;
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/line.gif') no-repeat top;
+}
+.mmeditposts #postsoptions a:hover,
+.mmeditposts #postsoptions a:active,
+.mmeditposts #postsoptions a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditposts .postsbanner
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+
+.mmeditposts #posts
+{
+	list-style-type: none;
+}
+.mmeditposts #posts li.postelements
+{
+	float: left;
+	display: block;
+	margin: 0 0 2px 0;
+}
+.mmeditposts ul.postelementsbanners
+{
+	line-height: 28px;
+	display: block;
+	width: 671px;
+	border-bottom: 2px solid #000000;
+	/*background: url('../images/bigline.gif') no-repeat bottom;*/
+	float: left;
+	padding: 0 5px 0 5px;
+}
+.mmeditposts ul.postelementsbanners li
+{
+	display: inline;
+}
+.mmeditposts li.postheadlines span
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+	cursor: pointer;
+}
+.mmeditposts li.postheadlines span.postsps:hover,
+.mmeditposts li.postheadlines span.postsps:active,
+.mmeditposts li.postheadlines span.postsps:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditposts li.postinfos
+{
+	float: right;
+}
+.mmeditposts li.postinfos span
+{
+	margin: 0 5px 0 0;
+}
+.mmeditposts li.postinfos span.togglers
+{
+	color: #FF0000;
+	text-decoration:none;
+	cursor: pointer;
+}
+.mmeditposts li.postinfos span.togglers:hover,
+.mmeditposts li.postinfos span.togglers:active,
+.mmeditposts li.postinfos span.togglers:focus
+{
+	text-decoration:underline;
+}
+.mmeditposts li.postheadlines span.postfrms,
+.mmeditposts span.postfrms
+{
+	margin: 2px 0 0 0;
+	display: none;
+}
+.mmeditposts #posts li.postelements .separator
+{
+	clear: both;
+}
+.mmeditposts #posts li.postelements .postsections
+{
+	display: block;
+	width: 667px;
+
+	border-top: 0px;
+	font-size: 12px;
+	padding: 5px;
+	float: left;
+}
+.mmeditposts .postsections ul.postoptions
+{
+	list-style-type: none;
+	display: block;
+	margin: 15px 0 10px 0;
+}
+.mmeditposts .postsections ul.postoptions li
+{
+	display: inline;
+}
+.mmeditposts .postsections ul.postoptions li.postcommentbutts
+{
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #5F5F5F;
+	cursor: pointer;
+}
+.mmeditposts .postsections ul.postoptions li.postdeletebutts
+{
+	float: right;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditposts .postsections ul.postoptions li:hover,
+.mmeditposts .postsections ul.postoptions li:active,
+.mmeditposts .postsections ul.postoptions li:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditposts .postsections ul.postdeletes,
+.mmeditposts .postsections ul.posterrmsguls
+{
+	color: #5F5F5F;
+	list-style-type: none;
+	margin: 15px 0 0 0;
+	display: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditposts .postsections ul.postdeletes li,
+.mmeditposts .postsections ul.posterrmsguls li
+{
+	display: inline;
+	cursor: pointer;
+}
+.mmeditposts .postsections ul.postdeletes li.completedeleteposts,
+.mmeditposts .postsections ul.postdeletes li.dontdeleteposts,
+.mmeditposts .postsections ul.posterrmsguls li.posterrmsgokbutts
+{
+	color: #FF0000;
+	margin: 0 0 0 5px;
+}
+.mmeditposts .postsections ul.postdeletes li.completedeleteposts span:hover,
+.mmeditposts .postsections ul.postdeletes li.completedeleteposts span:active,
+.mmeditposts .postsections ul.postdeletes li.completedeleteposts span:focus,
+.mmeditposts .postsections ul.postdeletes li.dontdeleteposts span:hover,
+.mmeditposts .postsections ul.postdeletes li.dontdeleteposts span:active,
+.mmeditposts .postsections ul.postdeletes li.dontdeleteposts span:focus,
+.mmeditposts .postsections ul.posterrmsguls li.posterrmsgokbutts span:hover,
+.mmeditposts .postsections ul.posterrmsguls li.posterrmsgokbutts span:active,
+.mmeditposts .postsections ul.posterrmsguls li.posterrmsgokbutts span:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditposts .error,
+.mmeditposts li.postheadlines div.error
+{ 
+	font-size: 11px;
+	margin: 0 0 0 5px;
+	display: inline; 
+	color: #ff0000;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mmeditposts .editpostbodycontainers .error
+{
+	line-height: 35px;
+}
+.mmeditposts li.postheadlines .loaderimg
+{
+	vertical-align: middle;
+}
+.mmeditposts .uploadimagesections .loaderimg
+{
+	vertical-align: middle;
+}
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodycontainers
+{
+	height: 130px;
+}
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodies
+{
+	cursor: pointer;
+	display: block;
+	height: 130px;
+	background-color: #F0F0F0;
+	padding: 3px;
+	overflow: hidden;
+	text-align: justify;
+}
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodies:hover,
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodies:active,
+.mmeditposts li.postelements .postsections .postcontainers .editpostbodies:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditposts li.postelements .postsections .editbodybuttons
+{
+	float: left;
+	margin: 5px 0 0 0;
+}
+
+.mmeditposts .postimagesbanners
+{
+	margin: 25px 0 5px 0;
+	padding: 0 5px 0 0;
+}
+.mmeditposts .postimagesbanners .banners
+{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0 0 5px 0;
+}
+.mmeditposts .postimagesbanners .postimagesnotes
+{
+	float: right;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 21px;
+	vertical-align: bottom;
+}
+.mmeditposts .postimagecontents
+{
+	width: 660px;
+	background-color: #313131;
+	float: left;
+	padding: 8px;
+}
+.mmeditposts .postimagecontents .imagesections
+{
+	border: 5px solid #313131;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.mmeditposts .postimagecontents .imagesections:hover,
+.mmeditposts .postimagecontents .imagesections:active,
+.mmeditposts .postimagecontents .imagesections:focus
+{
+	border: 5px solid #D50000;
+}
+.mmeditposts .postimagecontents .imagesupdateimagethumbs
+{
+	display: inline;
+	border: 5px solid #313131;
+	width: 100px;
+	height: 100px;
+}
+.mmeditposts .postimagecontents .imagesections li.imagethumbs
+{
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.mmeditposts .postimagecontents .imagesections li.imagedeletes
+{
+	display: none;
+	color: #5F5F5F;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0 5px 0 5px;
+	float: left;
+}
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .completedeleteimages span,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .dontdeleteimages span
+{
+	color: #FF0000;
+	cursor: pointer;
+	margin: 0 2px 0 0;
+}
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .completedeleteimages span:hover,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .completedeleteimages span:active,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .completedeleteimages span:focus,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .dontdeleteimages span:hover,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .dontdeleteimages span:active,
+.mmeditposts .postimagecontents .imagesections li.imagedeletes .dontdeleteimages span:focus
+{
+	background-color:#FF0000;
+	color:#FFFFFF;
+}
+.mmeditposts .postnotes
+{
+	margin: 10px 0 10px 0;
+	clear: both;
+}
+.mmeditposts .postnotes .postcounts
+{
+	float: left;
+	margin: 0 0 5px 0;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.mmeditposts .postnotes .imagesupdatesnotes
+{
+	float: right;
+	margin: 0 0 5px 0;
+	font-size: 11px;
+	font-weight: bold;
+}
+.mmeditposts .uploadimagesections
+{
+	font-size: 14px;
+	width: 660px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 25px 0 25px 0;
+	display: inline;
+	float: left;
+	border: 1px dashed #C9C9C9;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages
+{
+	display: block;
+	margin: 10px 0 0 20px;
+}
+.mmeditposts ul.uploadimagesections li.supportedimagefiletypes
+{
+	display: block;
+	font-style: italic;
+	margin: 0 0 0 190px;
+	font-size: 12px;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload
+{
+	display: none;
+	width: 269px;
+	font-size: 12px;
+	color: #5F5F5F;
+	border: 1px solid #919191;
+	border-top: 0px;
+	background-color: #F2F2F2;
+	margin: 0 0 0 168px;
+	list-style-type:none;
+	padding: 2px;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload li
+{
+	padding: 3px;
+	cursor: pointer;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload li.imagestouploadbordertop
+{
+	border-top: 1px dashed #919191;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload li:hover
+{
+	color: #000000;
+	background-color: #C0CCD3;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload li span
+{
+	margin: 0 0 0 5px;
+}
+.mmeditposts ul.uploadimagesections li.uploadimages ul.imagestoupload .deleteimagestoupload
+{
+	vertical-align: middle;
+}
+
+.mmeditposts ul.editpostlinks
+{
+/*
+	margin: 5px 0px 20px 0px;
+	border-bottom: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+*/
+	width: 675px;
+	margin-top: 50px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+	float: left;
+}
+.mmeditposts ul.editpostlinks li
+{
+	display: inline;
+}
+.mmeditposts ul.editpostlinks #prev
+{
+	float: left;
+}
+.mmeditposts ul.editpostlinks #next
+{
+	float: right;
+}
+.mmeditposts ul.editpostlinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.mmeditposts ul.editpostlinks li a:hover,
+.mmeditposts ul.editpostlinks li a:active,
+.mmeditposts ul.editpostlinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+
+
+.mmeditposts .hidden,
+.mmeditposts .postsp .hidden
+{
+	display: none;
+}
+.mmeditposts .postslineseperator
+{
+	width: 670px;
+	height: 25px;
+	margin: 1px 0 0 0;
+	background: url('../images/seperator.gif') no-repeat center;
+}

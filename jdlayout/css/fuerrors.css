@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fuerrors #sidebar
+{
+	height: 125px;
+}
+.fuerrors .notes
+{
+	color: #333333;
+	font-size: 12px;
+	text-align: justify;
+	background-color: #FFFFFF;
+	padding: 8px;
+	margin: 25px 70px 25px 70px;
+}
+.fuerrors .fuerrorsbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.fuerrors .fuerrorssubtitle
+{
+	text-align: center;
+	font-size: 20px;
+	margin: 15px 0 15px 0;
+	font-weight: bold;
+}
+.fuerrors .hidden
+{
+	display: none;
+}

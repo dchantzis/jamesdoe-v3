@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmeditcomments .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+	width: 330px;
+}
+.mmeditcomments .newcommentbanner 
+{
+	color: #5F5F5F;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px 0 0 0;
+}
+.mmeditcomments .newcommentmessages
+{
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 25px;
+	margin: 5px 0 0 0;
+}
+.mmeditcomments .newcommentloader
+{
+	margin: 5px 0 0 0;
+}
+.mmeditcomments ul.newcommentfrms
+{
+	list-style-type: none;
+	margin: 10px 0 0 0;
+}
+.mmeditcomments ul.newcommentfrms li
+{
+	margin: 0 0 7px 0;	
+}
+.mmeditcomments ul.newcommentfrms .text
+{
+	width: 315px;
+}
+.mmeditcomments ul.newcommentfrms .button
+{
+	width: 320px;
+}
+.mmeditcomments ul.newcommentfrms .charcounters
+{
+	margin: 0 0 15px 0;
+}
+.mmeditcomments ul.comments
+{
+	list-style-type: none;
+	margin: 0 0 15px 0;
+}
+.mmeditcomments ul.comments li
+{
+	margin: 0 0 30px 0;
+}
+.mmeditcomments ul.comments li a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px;
+	text-transform: capitalize;
+}
+.mmeditcomments ul.comments li a:hover,
+.mmeditcomments ul.comments li a:focus,
+.mmeditcomments ul.comments li a:active
+{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.mmeditcomments ul.comments .timestamp
+{
+	font-weight: bold;
+	padding: 0 2px 0 2px;
+}
+.mmeditcomments ul.comments .reply
+{
+	text-align: justify;
+	padding: 5px;
+	font-style: italic;
+}
+.mmeditcomments ul.comments .reply:first-letter
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+.mmeditcomments ul.comments .reply:first-line
+{	
+	font-weight: bold;
+	font-size: 11px;
+}
+.mmeditcomments ul.comments .deletecommentbuttons
+{
+	float: right;
+	cursor: pointer;
+	color: #FF0000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditcomments ul.comments .deletecommentbuttons:active,
+.mmeditcomments ul.comments .deletecommentbuttons:focus,
+.mmeditcomments ul.comments .deletecommentbuttons:hover
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditcomments ul.comments ul.commentdeletes
+{
+	list-style-type:none;
+	display:none;
+	float:right;
+}
+.mmeditcomments ul.comments ul.commentdeletes li
+{
+	display: inline;
+	margin: 0 5px 0 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditcomments ul.comments ul.commentdeletes li span
+{
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditcomments ul.comments ul.commentdeletes li span:hover,
+.mmeditcomments ul.comments ul.commentdeletes li span:active,
+.mmeditcomments ul.comments ul.commentdeletes li span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditcomments .responses .biglines
+{
+	width: 320px;
+}
+.mmeditcomments .responsesbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color:#000000;
+	margin: 0 0 15px 0;
+	padding: 0 3px 0 3px;
+}
+.mmeditcomments .responses
+{
+	width: 320px;
+	float: right;
+	padding: 4px;
+	margin: 0 0 0 0;
+}
+.mmeditcomments ul.postul
+{
+	list-style-type:none;
+	width: 330px;
+	padding: 5px;
+	float: left;
+}
+.mmeditcomments ul.postul .postheadlines
+{
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 13px;
+	margin: 0 0 5px 0;
+}
+.mmeditcomments ul.postul .posttypes
+{
+	font-size: 11px;
+	color: #FF0000;
+	text-transform: capitalize;
+	float: right;
+}
+.mmeditcomments ul.postul .postcreationtimestamps
+{
+	font-weight: bold;
+	padding: 0 2px 0 2px;
+}
+.mmeditcomments ul.postul .postbodies
+{
+	vertical-align: top;
+	text-align: justify;
+	position:relative;
+	top: 0px;
+	min-height: 80px;
+}
+.mmeditcomments ul.postul .postbodies:first-letter
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.mmeditcomments ul.postul .postbodies:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.mmeditcomments ul.postul .postsignature
+{
+	display: block;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-style:italic;
+	margin: 10px 0 0 0;
+	line-height: 25px;
+	text-align: right;
+}
+.mmeditcomments ul.postul .red
+{
+	font-size: 20px;
+	font-style: italic;
+	display: block;
+	line-height: 3px;
+}
+.mmeditcomments ul.postul li.postulclear
+{
+	clear: both;
+}
+.mmeditcomments ul.postimageuls
+{
+	list-style-type: none;
+	margin: 0 0 10px 0;
+	float: right;
+}
+.mmeditcomments ul.postimageuls li.postimagebanners
+{
+	display: block;
+	text-align:right;
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 17px;
+	margin: 15px 0 5px 0;
+}
+.mmeditcomments ul.postimageuls li.postimagethumbs img
+{
+	border: 0;
+}
+.mmeditcomments ul.postimageuls li.postimagethumbs
+{
+	padding: 3px;
+	width: 102px;
+	height: 102px;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+	float: right;
+}
+.mmeditcomments ul.postimageuls li.postimagethumbs:hover,
+.mmeditcomments ul.postimageuls li.postimagethumbs:active,
+.mmeditcomments ul.postimageuls li.postimagethumbs:focus
+{
+	padding-bottom: 0;
+	border-bottom: 3px solid #5F5F5F;
+} 
+.mmeditcomments .hidden
+{
+	display: none;
+}

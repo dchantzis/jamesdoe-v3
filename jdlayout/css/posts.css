@@ -1,0 +1,369 @@
+@charset "utf-8";
+/* CSS Document */
+
+.posts .postbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.posts ul.postul
+{
+	list-style-type:none;
+}
+.posts ul.postul .postheadlines
+{
+	text-align:right;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0 0 5px 0;
+}
+.posts ul.postul .postheadlines .posttypes
+{
+	float: left;
+	font-size: 11px;
+	line-height: 35px;
+	color: #FF0000;
+	text-transform: capitalize;
+}
+.posts ul.postul .displayposts
+{
+	cursor:pointer;
+}
+.posts ul.postul .displayposts:hover,
+.posts ul.postul .displayposts:active,
+.posts ul.postul .displayposts:focus
+{
+	color: #FFFFFF;
+	background-color:#000000;
+}
+.posts ul.postul .postcreationtimestamps
+{
+	float: left;
+	width: 10px;
+	height: 10px;
+	font-size: 60px;
+	line-height: 45px;
+	position:relative;
+	top: 0px;
+	left: 130px;
+	font-style: italic;
+}
+.posts ul.postul .postbodies
+{
+	vertical-align: top;
+	text-align:right;
+	position:relative;
+	left: 280px;
+	top: 0px;
+	width: 400px;
+	min-height: 80px;
+}
+.posts ul.postul .postbodies:first-letter
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.posts ul.postul .postbodies:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.posts ul.postul .postsignature
+{
+	display: block;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-style:italic;
+	margin: 10px 0 0 0;
+	line-height: 25px;
+	text-align: right;
+	text-transform: capitalize;
+}
+.posts ul.postul li.displaycomments
+{
+	margin: 10px 0 30px 0;
+	clear: both;
+	float: left;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: bold;
+	position:relative;
+	left: 130px;
+	cursor: pointer;
+	color: #5F5F5F;
+	padding: 0 3px 0 3px;
+	text-decoration: none;
+}
+.posts ul.postul li.leavenewcomment a
+{
+	margin: 20px 0 30px 0;
+	float: right;
+	vertical-align:bottom;
+	padding: 0 3px 0 3px;
+	font-size: 11px;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	color: #5F5F5F;
+	text-decoration: none;
+}
+.posts ul.postul li.displaycomments:hover,
+.posts ul.postul li.displaycomments:active,
+.posts ul.postul li.displaycomments:focus,
+.posts ul.postul li.leavenewcomment a:hover,
+.posts ul.postul li.leavenewcomment a:active,
+.posts ul.postul li.leavenewcomment a:focus
+{
+	color: #FFFFFF;
+	background-color:#000000;	
+}
+.posts ul.postul .red
+{
+	font-size: 20px;
+	font-style: italic;
+	display: block;
+	line-height: 3px;
+}
+.posts ul.postul li.postulclear
+{
+	clear: both;
+}
+.posts ul.postimageuls
+{
+	list-style-type: none;
+	margin: 0 0 10px 0;
+	float: right;
+	width: 500px;
+}
+.posts ul.postimageuls li.postimagebanners
+{
+	display: block;
+	text-align:right;
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 17px;
+	margin: 15px 0 5px 0;
+}
+.posts ul.postimageuls li.postimagethumbs
+{
+	padding: 3px;
+	width: 102px;
+	height: 102px;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+	float: right;
+}
+.posts ul.postimageuls li.postimagethumbs:hover,
+.posts ul.postimageuls li.postimagethumbs:active,
+.posts ul.postimageuls li.postimagethumbs:focus
+{
+	padding-bottom: 0;
+	border-bottom: 3px solid #5F5F5F;
+}
+.posts ul.postimageuls li.postimagethumbs img
+{
+	border: 0;
+}
+.posts .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+}
+.posts ul.postlinks
+{
+	margin-top: 70px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+}
+.posts ul.postlinks li
+{
+	display: inline;
+}
+.posts ul.postlinks #prev
+{
+	float: left;
+}
+.posts ul.postlinks #next
+{
+	float: right;
+}
+.posts ul.postlinks #arch
+{
+	float: left;
+	margin-left: 240px;
+}
+.posts ul.postlinks #archalone
+{
+	margin-left: 245px;
+}
+.posts ul.postlinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.posts ul.postlinks li a:hover,
+.posts ul.postlinks li a:active,
+.posts ul.postlinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.posts #postarchlink
+{
+	border: 1px solid #000000;
+}
+.posts ul.postul li.commentsdisplay
+{
+	clear: both;
+	margin: 0 0 15px 130px;
+}
+.posts ul.postul li.commentsdisplay .newcommentbanner 
+{
+	color: #5F5F5F;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px 0 0 0;
+}
+.posts ul.postul li.commentsdisplay .newcommentmessages
+{
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 25px;
+	margin: 5px 0 0 120px;
+}
+.posts ul.postul li.commentsdisplay .newcommentloader
+{
+	margin: 5px 0 0 120px;
+}
+.posts ul.postul li.commentsdisplay ul.newcommentfrms
+{
+	list-style-type: none;
+	margin: 10px 0 0 120px;
+}
+.posts ul.postul li.commentsdisplay ul.newcommentfrms li
+{
+	margin: 0 0 7px 0;	
+}
+.posts ul.postul li.commentsdisplay ul.newcommentfrms .text
+{
+	width: 420px;
+}
+.posts ul.postul li.commentsdisplay ul.newcommentfrms .button
+{
+	width: 426px;
+}
+.posts ul.postul li.commentsdisplay ul.newcommentfrms .charcounters
+{
+	margin: 0 0 15px 0;
+}
+.posts ul.postul li.commentsdisplay ul.comments
+{
+	list-style-type: none;
+}
+.posts ul.postul li.commentsdisplay ul.comments li
+{
+	margin: 0 0 20px 0;
+}
+.posts ul.postul li.commentsdisplay ul.comments li a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px;
+	text-transform: capitalize;
+}
+.posts ul.postul li.commentsdisplay ul.comments li a:hover,
+.posts ul.postul li.commentsdisplay ul.comments li a:focus,
+.posts ul.postul li.commentsdisplay ul.comments li a:active
+{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.posts ul.postul li.commentsdisplay .biglines
+{
+	width: 550px;
+}
+.posts ul.postul li.commentsdisplay ul.comments .timestamp
+{
+	font-weight: bold;
+	padding: 0 2px 0 2px;
+}
+.posts ul.postul li.commentsdisplay ul.comments .reply
+{
+	left: 130px;
+	width: 415px;
+	position:relative;
+	text-align:right;
+	padding: 3px;
+	font-style: italic;
+}
+.posts ul.postul li.commentsdisplay ul.comments .reply:first-letter
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+.posts ul.postul li.commentsdisplay ul.comments .reply:first-line
+{	
+	font-weight: bold;
+	font-size: 11px;
+}
+.posts ul.postul li.commentsdisplay ul.comments .deletecommentbuttons
+{
+	float: right;
+	cursor: pointer;
+	color: #FF0000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.posts ul.postul li.commentsdisplay ul.comments .deletecommentbuttons:active,
+.posts ul.postul li.commentsdisplay ul.comments .deletecommentbuttons:focus,
+.posts ul.postul li.commentsdisplay ul.comments .deletecommentbuttons:hover
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes
+{
+	list-style-type:none;
+	display:none;
+	float:right;
+}
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li
+{
+	display: inline;
+	margin: 0 5px 0 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li span
+{
+	color: #FF0000;
+	cursor: pointer;
+}
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li span:hover,
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li span:active,
+.posts ul.postul li.commentsdisplay ul.comments ul.commentdeletes li span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.posts .hidden
+{
+	display: none;
+}

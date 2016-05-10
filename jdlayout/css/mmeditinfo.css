@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmeditinfo .editinfobanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.mmeditinfo ul.infoelements
+{
+	list-style-type: none;
+}
+.mmeditinfo ul.infoelements li.infoelement
+{
+	margin: 0 0 15px 0;
+}
+.mmeditinfo .profileinformationfrms
+{
+	display: none;
+}
+.mmeditinfo ul.infoelements li .editprofileinformations
+{
+	cursor: pointer;
+	display: block;
+	min-height: 215px;
+	max-height: 215px;
+	padding: 3px;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+.mmeditinfo ul.infoelements li .editprofileinformations:hover
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditinfo .hidden
+{
+	display: none;
+}

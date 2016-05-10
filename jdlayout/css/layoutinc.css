@@ -1,0 +1,562 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*body for all the pages */
+body {
+	background-color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 70%;
+	color: #5F5F5F;
+	background: #ffffff url('../images/jdbackgroundwallpaper.gif') fixed repeat-x top;
+}
+#wrapper
+{
+	width: 900px;
+	height: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+#sidebar
+{
+	float: left;
+	padding: 0 5px 0 5px;
+	margin: 0 10px 5px 0px;
+	font-size: 10px;
+	width: 150px;
+	height: 700px;
+	background-color: #FFFFFF;
+	background: transparent url('../images/jdbackgroundline.png') fixed repeat-x top;
+}
+#content
+{
+	margin: 0 0 0 0;
+	padding: 3px 0 0 0;
+	float: left;
+	height: 100%;
+	width: 690px;
+	background-color: #FFFFFF;
+	background: transparent url('../images/jdbackgroundline.png') fixed repeat-x top;
+}
+#maincolumn
+{
+	margin: 5px 0 5px 0;
+	padding: 0 5px 0 5px;
+	width: 681px;
+	height: 100%;
+}
+#sidefooter
+{
+	/*height: 525px;*/
+}
+#mainfooter
+{
+	clear: both;
+	height: 200px;
+}
+#sidebar .sitebanner
+{
+	/*width: 850px;*/
+	margin: 0 0 5px 0;
+	/*
+	background-color: #FFFFFF;
+	background: transparent url('../images/jamesdoe.png') no-repeat;
+	*/
+	width: 150px;
+	height: 55px;
+}
+#sidebar #adminmodebanner
+{
+	color: #FFFFFF;
+	background-color:#7D7D7D;
+	margin: 5px 0 0 0;
+	padding: 2px;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+#sidebar ul.legalshit
+{
+	list-style-type: none;
+}
+#sidebar ul.legalshit li
+{
+	margin: 5px 0 5px 0;
+}
+#sidebar .separator
+{
+	height: 15px;
+	border-bottom: 1px solid #CCCCCC;
+}
+#sidebar ul.navi
+{
+	color: #7D7D7D;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 5px 0 5px 0;
+	list-style-type: none;
+	font-weight: bold;
+}
+#sidebar ul.navi li
+{
+	margin: 0 0 2px 0;
+}
+#sidebar ul.navi a
+{
+	color: #7D7D7D;
+	text-decoration: none;
+}
+#sidebar ul.navi .subnavitogglers span
+{
+	cursor: pointer;
+}
+#sidebar ul.navi ul.subnavi
+{
+	text-transform: capitalize;
+	padding: 2px 0 5px 10px;
+	list-style-type: none;
+}
+#sidebar ul.navi ul.subnavi li a
+{
+	color: #9F9F9F;
+}
+#sidebar ul.navi a:hover,
+#sidebar ul.navi a:active,
+#sidebar ul.navi a:focus,
+#sidebar ul.navi .subnavitogglers span:hover,
+#sidebar ul.navi .subnavitogglers span:active,
+#sidebar ul.navi .subnavitogglers span:focus,
+#sidebar ul.navi ul.subnavi li a:hover,
+#sidebar ul.navi ul.subnavi li a:active,
+#sidebar ul.navi ul.subnavi li a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+#sidebar #sitebanner
+{
+	cursor: pointer;
+}
+
+#pagetitle
+{
+	color: #5F5F5F;
+	margin: 5px 5px 5px 5px;
+}
+#pagetitle ul.secondarynavi
+{
+	color: #5F5F5F;
+	font-size: 11px;	
+	float: left;
+	text-transform: uppercase;
+	list-style-type: none;
+}
+#pagetitle ul.secondarynavi li
+{
+	display: inline;
+	font-weight: bold;
+}
+#pagetitle ul.secondarynavi li a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+}
+#pagetitle ul.secondarynavi li a:hover,
+#pagetitle ul.secondarynavi li a:active,
+#pagetitle ul.secondarynavi li a:focus
+{
+	text-decoration: underline;
+}
+
+#spacer
+{
+	clear: both;
+	height: 15px;
+}
+
+.highlight
+{
+	color: #FF0000;
+}
+
+.emails
+{
+	cursor: pointer;
+}
+.emails:hover,
+.emails:active,
+.emails:focus
+{
+	text-decoration: underline;
+}
+.emails .highlight
+{
+	font-size: 12px;
+}
+
+.mmeditimages #helpbutt,
+.mmeditalbums #helpbutt,
+.mmeditposts #helpbutt,
+.mmeditcomments #helpbutt,
+.mmeditsettings #helpbutt,
+.mmeditwelcomepage #helpbutt,
+.mmeditinfo #helpbutt,
+.mmualeditcomments #helpbutt,
+.mmeditualroutine #helpbutt,
+.mmeditualerrors #helpbutt
+{
+	float: right;
+	font-size: 12px;
+}
+.mmeditimages #helpline,
+.mmeditalbums #helpline,
+.mmeditposts #helpline,
+.mmeditcomments #helpline,
+.mmeditsettings #helpline,
+.mmeditwelcomepage #helpline,
+.mmeditinfo #helpline,
+.mmualeditcomments #helpline,
+.mmeditualroutine #helpline,
+.mmeditualerrors #helpline
+{
+	clear: both;
+	width: 25px;
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/line.gif') no-repeat bottom;
+}
+#pagetitle #helpbutt a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+}
+#pagetitle #helpbutt a:hover,
+#pagetitle #helpbutt a:active,
+#pagetitle #helpbutt a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditimages #helpcontent,
+.mmeditalbums #helpcontent,
+.mmeditposts #helpcontent,
+.mmeditcomments #helpcontent,
+.mmeditsettings #helpcontent,
+.mmeditwelcomepage #helpcontent,
+.mmeditinfo #helpcontent,
+.mmualeditcomments #helpcontent,
+.mmeditualroutine #helpcontent,
+.mmeditualerrors #helpcontent
+{
+	position: absolute;
+	/*
+	top: 200px;
+	left: 250px;
+	*/
+	color: #5F5F5F;
+	margin: 0px 80px 0px 80px;
+	padding: 5px 10px 10px 10px;
+	width: 500px;
+	border: 1px #C9C9C9 dotted;
+	background-color: #FFFFFF;
+	text-align: justify;
+}
+.mmeditimages #helpclosebutt,
+.mmeditalbums #helpclosebutt,
+.mmeditposts #helpclosebutt,
+.mmeditcomments #helpclosebutt,
+.mmeditsettings #helpclosebutt,
+.mmeditwelcomepage #helpclosebutt,
+.mmeditinfo #helpclosebutt,
+.mmualeditcomments #helpclosebutt,
+.mmeditualroutine #helpclosebutt,
+.mmeditualerrors #helpclosebutt
+{
+	margin: 0 0 3px 485px;
+	cursor: pointer;
+}
+.mmeditimages .helpbanners,
+.mmeditalbums .helpbanners,
+.mmeditposts .helpbanners,
+.mmeditcomments .helpbanners,
+.mmeditsettings .helpbanners,
+.mmeditwelcomepage .helpbanners,
+.mmeditinfo .helpbanners,
+.mmualeditcomments .helpbanners,
+.mmeditualroutine .helpbanners,
+.mmeditualerrors .helpbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+
+#alertcontent
+{
+	position: absolute;
+	/*
+	top: 200px;
+	left: 250px;
+	*/
+	color: #5F5F5F;
+	font-weight: bold;
+	margin: 0px 80px 0px 80px;
+	padding: 5px 10px 10px 10px;
+	width: 500px;
+	min-height: 50px;
+	border: 1px #C9C9C9 dotted;
+	background-color: #FFFFFF;
+	text-align: justify;
+	display: none;
+}
+#alertclosebutt
+{
+	margin: 0 0 3px 485px;
+	cursor: pointer;
+}
+.alertbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+
+.phperrorcontent
+{
+	position: absolute;
+	/*
+	top: 200px;
+	left: 250px;
+	*/
+	color: #5F5F5F;
+	font-weight: bold;
+	margin: 0px 80px 0px 80px;
+	padding: 5px 10px 10px 10px;
+	width: 500px;
+	min-height: 50px;
+	border: 1px #C9C9C9 dotted;
+	background-color: #FFFFFF;
+	text-align: justify;
+}
+.phperrorbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+.phperrornotes
+{
+	margin: 10px 0 0 0;
+}
+.mmeditimages .tip,
+.mmeditalbums .tip,
+.mmeditposts .tip,
+.mmeditsettings .tip
+{ 
+	font-size: 11px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	min-width: 200px;
+}
+.mmeditimages .tip-title,
+.mmeditalbums .tip-title,
+.mmeditposts .tip-title,
+.mmeditsettings .tip-title
+{ 
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #CCCCCC;
+	padding: 2px 5px 2px 5px;
+}
+.mmeditimages .tip-text,
+.mmeditalbums .tip-text,
+.mmeditposts .tip-text,
+.mmeditsettings .tip-text
+{ 
+	color: #5F5F5F;
+	padding: 5px;
+}
+.clearboth
+{
+	clear: both;
+}
+
+.mmeditposts #uploadimageresults,
+.mmeditalbums #uploadimageresults,
+.mmeditwelcomepage #uploadimageresults
+{
+	width: 665px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 0 0 15px 0;
+	display: block;
+	clear: both;
+	border: 1px dashed #ff0000;
+}
+.mmeditposts #uploadimageresults li,
+.mmeditalbums #uploadimageresults li,
+.mmeditwelcomepage #uploadimageresults li
+{
+	font-size: 12px;
+	text-align: justify;
+	margin: 0 0 3px 0;
+	padding-left: 15px;
+}
+.mmeditposts #uploadimageresults #uploadimageresultsclose,
+.mmeditalbums #uploadimageresults #uploadimageresultsclose,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsclose
+{
+	font-size: 14px;
+	color: #FF0000;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+	display: inline;
+	float: right;
+}
+.mmeditposts #uploadimageresults #uploadimageresultsbanner,
+.mmeditalbums #uploadimageresults #uploadimageresultsbanner,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsbanner
+{
+	font-size: 15px;
+	color: #5F5F5F;
+	font-weight: bold;
+	text-transform: capitalize;
+	display: inline;
+	float: left;
+}
+.mmeditposts #uploadimageresults #uploadimageresultsclose span:hover,
+.mmeditposts #uploadimageresults #uploadimageresultsclose span:active,
+.mmeditposts #uploadimageresults #uploadimageresultsclose span:focus,
+.mmeditalbums #uploadimageresults #uploadimageresultsclose span:hover,
+.mmeditalbums #uploadimageresults #uploadimageresultsclose span:active,
+.mmeditalbums #uploadimageresults #uploadimageresultsclose span:focus,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsclose span:hover,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsclose span:active,
+.mmeditwelcomepage #uploadimageresults #uploadimageresultsclose span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.counters
+{
+	color: #999999;
+	font-size: 22px;
+	font-weight: bold;
+}
+.strikethrough
+{
+	text-decoration: line-through;
+	color:#5F5F5F;
+	font-size: 12px;
+	padding: 2px;
+}
+a.login,
+a.login:hover,
+a.login:focus,
+a.login:active
+{
+	color: #FF0000;
+	text-decoration: none;
+}
+.logout a
+{
+	color:#FFFFFF;
+	background-color:#000000;
+	font-size: 16px;
+	position: absolute;
+	padding: 2px;
+	cursor: pointer;
+	top: 0px;
+	right: 0px;
+	text-decoration: none;
+}
+.logout a:hover,
+.logout a:active,
+.logout a:focus
+{
+	color:#FFFFFF;
+	background-color:#FF0000;
+}
+.red
+{
+	color:#FF0000;
+}
+
+#sidebar #navitagsbanner
+{
+	color: #FFFFFF;
+	background-color:#7D7D7D;
+	margin: 5px 0 7px 0;
+	padding: 2px;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+#navitags ul
+{
+	list-style-type:none;
+	text-transform: capitalize;
+}
+#navitags ul li
+{
+	font-size: 12px;
+	display: inline;
+	line-height: 14px;
+}
+#navitags ul li a
+{
+	color: #5F5F5F;
+	padding: 2px;
+	text-decoration: none;
+}
+#navitags ul li a:hover,
+#navitags ul li a:active,
+#navitags ul li a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+#navitags .smallestTag{font-size:9px;}
+#navitags .smallTag{font-size:12px;}
+#navitags .mediumTag{font-size:18px;}
+#navitags .largeTag{font-size:24px;}
+#navitags .largestTag{font-size:30px;}
+
+.commonlinks
+{
+	color: #FF0000;
+	text-decoration: none;
+}
+.commonlinks:hover,
+.commonlinks:active,
+.commonlinks:focus
+{
+	color: #FFFFFF;
+	background-color:#FF0000;
+}
+.emailme
+{
+	text-decoration: none;
+	color: #5F5F5F;
+}
+.bold{font-weight:bold;}

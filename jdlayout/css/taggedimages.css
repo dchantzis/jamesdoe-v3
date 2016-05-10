@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+.taggedimages ul.albumnavi
+{
+	list-style-type:none;
+	float: right;
+}
+.taggedimages ul.albumnavi li
+{
+	display: inline;
+}
+.taggedimages ul.albumnavi #count
+{
+	margin: 0 10px 0 10px;
+}
+.taggedimages ul.albumnavi #imageposition
+{
+	color: #FF0000;
+}
+.taggedimages ul.albumnavi #previousimage,
+.taggedimages ul.albumnavi #nextimage
+{
+	cursor: pointer;
+}
+.taggedimages ul.albumnavi #previousimage:hover,
+.taggedimages ul.albumnavi #previousimage:focus,
+.taggedimages ul.albumnavi #previousimage:active,
+.taggedimages ul.albumnavi #nextimage:hover,
+.taggedimages ul.albumnavi #nextimage:focus,
+.taggedimages ul.albumnavi #nextimage:active
+{
+	color: #FFFFFF;
+	background-color:#FF0000;
+}
+.taggedimages #enlargenote
+{
+	margin: 0 0 5px 0;
+	margin-top: 5px;
+	font-size: 11px;
+	color: #5F5F5F;
+	font-weight: normal;
+	font-style: italic;
+	float: left;
+}
+.taggedimages #infonote
+{
+	margin: 0 0 5px 0;
+	margin-top: 5px;
+	float: right;
+}
+.taggedimages #infonote a
+{
+	font-size: 11px;
+	color: #5F5F5F;
+	font-weight: normal;
+	text-transform:lowercase;
+	text-decoration: none;
+}
+.taggedimages #infonote a:hover,
+.taggedimages #infonote a:focus,
+.taggedimages #infonote a:active
+{
+	color: #FFFFFF;
+	background-color:#000000;
+}
+.taggedimages ul.imageul
+{
+	list-style-type:none;
+
+}
+.taggedimages ul.imageul li
+{
+	margin: 0 0 5px 0;
+}
+.taggedimages ul.imageul .imagefileurls
+{
+	cursor: pointer;
+	margin: 0 0 10px 0;
+}
+.taggedimages ul.imageul .imagenames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color:#000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+.taggedimages ul.imageul .imagedescriptions
+{
+	text-align: justify;
+	font-weight: normal;
+}
+.taggedimages ul.imageul .imagedescriptions:first-letter
+{
+	font-size: 45px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+	margin-right: 3px;
+}
+.taggedimages ul.imageul .imagedescriptions:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.taggedimages ul.imageul .imagetags
+{
+	clear: both;
+}
+.taggedimages ul.imageul .imagetags #imagetagsbanner
+{
+	font-weight: bold;
+	display: inline;
+	float: left;
+}
+.taggedimages ul.imageul .imagealbums div
+{
+	font-weight: bold;
+	display: inline;
+}
+.taggedimages ul.imageul .imagesubmitiontimestamps
+{
+	font-weight: bold;
+	font-style: italic;
+}
+.taggedimages ul.imageul .imagealbums
+{
+	text-transform: capitalize;
+}
+.images .noimagesnote
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.taggedimages ul.tags
+{
+	list-style-type:none;
+	display: inline;
+}
+.taggedimages ul.tags li
+{
+	text-transform: capitalize;
+	display: inline;
+	margin: 0 3px 0 0;
+}
+.taggedimages ul.tags li a,
+.taggedimages .imagealbums a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+	padding: 2px;
+}
+.taggedimages ul.tags li a:hover,
+.taggedimages ul.tags li a:focus,
+.taggedimages ul.tags li a:active,
+.taggedimages .imagealbums a:hover,
+.taggedimages .imagealbums a:focus,
+.taggedimages .imagealbums a:active
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.taggedimages #loadnextimage
+{
+	position: absolute;
+	width: 681px;
+	height: 100%;
+	top: 0px;
+	height: 100%;
+	background: url('../images/bglinewhite60.png') fixed repeat-x top;
+}
+.taggedimages .hidden
+{
+	display: none;
+}

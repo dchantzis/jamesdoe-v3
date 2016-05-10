@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmeditualerrors .ualbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+
+.mmeditualerrors #entriesoptions
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+}
+.mmeditualerrors #entriesoptions a
+{
+	color: #5F5F5F;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.mmeditualerrors #entriesoptions #deleteallroutineentries
+{
+	padding: 0 5px 0 5px;
+}
+.mmeditualerrors #entriesoptions #deleteallentriesline
+{
+	width: 115px;
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/line.gif') no-repeat top;
+}
+.mmeditualerrors .entriesdeletes
+{
+	font-size: 12px;
+	margin: 0 0 19px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: none;
+}
+.mmeditualerrors .deleteentriesmsg
+{
+	color: #FF0000;
+	margin: 0 20px 0 0;
+}
+.mmeditualerrors .completedeleteentries,
+.mmeditualerrors .dontdeleteentries
+{
+	display: inline;
+	margin: 0 10px 0 0;
+	cursor: pointer
+}
+.mmeditualerrors #entriesoptions a:hover,
+.mmeditualerrors #entriesoptions a:active,
+.mmeditualerrors #entriesoptions a:focus,
+.mmeditualerrors .completedeleteentries span:hover,
+.mmeditualerrors .completedeleteentries span:active,
+.mmeditualerrors .completedeleteentries span:focus,
+.mmeditualerrors .dontdeleteentries span:hover,
+.mmeditualerrors .dontdeleteentries span:active,
+.mmeditualerrors .dontdeleteentries span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+
+.mmeditualerrors #noresultsmessage 
+{
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+.mmeditualerrors #noresultsmessage span
+{
+	display: block;
+}
+.mmeditualerrors #noresultsmessage #luckyyou
+{
+	color:#FF0000;
+	font-size: 60px;
+	text-transform:uppercase;
+}
+.mmeditualerrors #noresultsmessage #reasonluckyyou
+{
+	font-size: 13px;
+	font-weight: bold;
+}
+.mmeditualerrors .usersactionlogentries
+{
+	list-style-type: none;
+}
+.mmeditualerrors .usersactionlogentries li
+{
+	margin: 0 0 3px 0;
+	padding: 2px;
+}
+.mmeditualerrors .usersactionlogentries li:hover
+{
+	background-color: #C1C1C1;
+	color: #FFFFFF;
+}
+.mmeditualerrors li.odd
+{
+	background-color: #EFEFEF;
+}
+.mmeditualerrors .usersactionlogentries li span
+{
+	margin: 0 10px 0 0;
+}
+.mmeditualerrors .usersactionlogentries #firstrow
+{
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 25px 0;
+	text-transform: uppercase;
+}
+.mmeditualerrors .usersactionlogentries #firstrow:hover
+{
+	background: none;
+	color: #5F5F5F;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .timestamp
+{
+	width: 160px;
+	float:left;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .userip
+{
+	float:left;
+	margin-left: 10px;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .privileges
+{
+	float:left;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .error
+{
+	display: block;
+	width: 330px;
+	margin: 0 0 0 350px;
+}
+.mmeditualerrors .usersactionlogentries #firstrow .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+	width: 100%;
+	float: left;
+}
+.mmeditualerrors .usersactionlogentries li span.actiondatetime
+{
+	font-size: 15px;
+	float:left;
+	font-weight: bold;
+	width: 160px;
+}
+.mmeditualerrors .usersactionlogentries li span.userip
+{
+	font-size: 12px;
+	float:left;
+	margin-left: 10px;
+}
+.mmeditualerrors .usersactionlogentries li span.userprivileges
+{
+	font-size: 12px;
+	float:left;
+	text-transform:capitalize;
+}
+.mmeditualerrors .usersactionlogentries li span.message
+{
+	display: block;
+	text-align: justify;
+	padding: 2px;
+	text-transform: capitalize;
+	width: 330px;
+	margin: 0 0 0 350px;
+}
+.mmeditualerrors .usersactionlogentries li span.message:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries
+{
+	list-style-type:none;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries li
+{
+	border: 0px;
+	margin: 0 0 3px 0;
+	padding: 0 2px 2px 2px;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries li.errortypes
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries li.dberrorquery
+{
+	font-size: 12px;
+	font-style:italic;
+}
+.mmeditualerrors .usersactionlogentries li span.message ul.errorentries li.dberrortypes
+{
+}
+
+.mmeditualerrors ul.edituallinks
+{
+	width: 675px;
+	margin-top: 50px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+	float: left;
+}
+.mmeditualerrors ul.edituallinks li
+{
+	display: inline;
+}
+.mmeditualerrors ul.edituallinks #prev
+{
+	float: left;
+}
+.mmeditualerrors ul.edituallinks #next
+{
+	float: right;
+}
+.mmeditualerrors ul.edituallinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.mmeditualerrors ul.edituallinks li a:hover,
+.mmeditualerrors ul.edituallinks li a:active,
+.mmeditualerrors ul.edituallinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.mmeditualerrors .hidden
+{
+	display: none;
+}

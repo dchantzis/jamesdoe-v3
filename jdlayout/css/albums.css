@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.albums ul.albumul
+{
+	list-style-type: none;
+	display: block;
+}
+.albums ul.albumul li
+{
+	margin: 0 0 5px 0;
+}
+.albums ul.albumul .albumnames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 0 15px 0;
+	color: #FFFFFF;
+	background-color:#000000;
+	padding: 0 3px 0 3px;
+}
+.albums ul.albumul .albumcovers
+{
+	float:left;
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+.albums ul.albumul .albumdescriptions
+{
+	text-align: justify;
+	min-height: 100px;
+}
+.albums .albumdescriptions:first-letter
+{
+	font-size: 45px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+	margin-right: 3px;
+}
+.albums .albumdescriptions:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.albums ul.albumul .albumupdatedtimestamps
+{
+	font-weight: bold;
+	font-style: italic;
+}
+.albums .albumimagesbanners
+{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 15px 0 0px 0;
+}
+.albums .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+}
+
+.albums .albumimagesthumbnails
+{
+	width: 660px;
+	float: left;
+	padding: 8px;
+}
+.albums .albumimagesthumbnails .imagethumbs
+{
+	padding: 5px;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
+.albums .albumimagesthumbnails .imagethumbs:hover,
+.albums .albumimagesthumbnails .imagethumbs:active,
+.albums .albumimagesthumbnails .imagethumbs:focus
+{
+	padding-bottom: 2px;
+	border-bottom: 3px solid #5F5F5F;
+}
+.albums .hidden
+{
+	display: none;
+}

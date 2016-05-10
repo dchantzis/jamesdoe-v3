@@ -1,0 +1,396 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.mmeditimages #catoptions
+{
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+}
+.mmeditimages #catoptions a
+{
+	color: #5F5F5F;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.mmeditimages #catoptions #addcategory
+{
+	padding: 0 5px 0 5px;
+}
+.mmeditimages #catoptions #catoptionsline
+{
+	width: 100px;
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/line.gif') no-repeat top;
+}
+.mmeditimages #catoptions a:hover,
+.mmeditimages #catoptions a:active,
+.mmeditimages #catoptions a:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+
+.mmeditimages .categoriesbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+
+.mmeditimages #categories
+{
+	list-style-type: none;
+}
+.mmeditimages #categories li.cats
+{
+	float: left;
+	display: block;
+	margin: 0 0 2px 0;
+}
+.mmeditimages ul.catbanners
+{
+	line-height: 28px;
+	display: block;
+	width: 671px;
+	background-color: #E1E1E1;
+	float: left;
+	padding: 0 5px 0 5px;
+}
+.mmeditimages ul.catbanners li
+{
+	display: inline;
+}
+.mmeditimages li.catnames span
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+	cursor: pointer;
+}
+.mmeditimages li.catnames span.catsps:hover,
+.mmeditimages li.catnames span.catsps:active,
+.mmeditimages li.catnames span.catsps:focus
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.mmeditimages li.catinfos
+{
+	float: right;
+}
+.mmeditimages li.catinfos span
+{
+	margin: 0 5px 0 0;
+}
+
+.mmeditimages li.catinfos span.togglers
+{
+	color: #FF0000;
+	text-decoration:none;
+	cursor: pointer;
+}
+.mmeditimages li.catinfos span.togglers:hover,
+.mmeditimages li.catinfos span.togglers:active,
+.mmeditimages li.catinfos span.togglers:focus
+{
+	text-decoration:underline;
+}
+
+.mmeditimages li.catnames span.catfrms
+{
+	margin: 2px 0 0 0;
+	display: none;
+}
+.mmeditimages #categories li.cats .separator
+{
+	clear: both;
+}
+
+.mmeditimages #categories li.cats .catsections
+{
+	display: block;
+	width: 667px;
+	border: 2px solid #E1E1E1;
+	border-top: 0px;
+	font-size: 12px;
+	padding: 5px;
+	float: left;
+}
+
+.mmeditimages .catsections ul.catoptions,
+.mmeditimages .catsections ul.catdeletes,
+.mmeditimages .catsections ul.caterrmsguls
+{
+	color: #5F5F5F;
+	list-style-type: none;
+	padding: 0 5px 0 5px;
+	margin: 5px 0 5px 0;
+}
+
+.mmeditimages .catsections ul.catdeletes,
+.mmeditimages .catsections ul.caterrmsguls
+{
+	display: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditimages .catsections ul.catdeletes li,
+.mmeditimages .catsections ul.caterrmsguls li
+{
+	display: inline;
+	margin: 0 0 0 5px;
+}
+.mmeditimages .catsections ul.catdeletes .deletecatmsg
+{
+	margin: 0;
+}
+.mmeditimages .catsections ul.catoptions li
+{
+	display: inline;
+	color: #5F5F5F;
+	cursor: pointer;
+}
+
+.mmeditimages .catsections li.deletecatmsg,
+.mmeditimages .catsections ul.caterrmsguls li.caterrmsgs,
+.mmeditimages .catsections .albums ul.albumdatas li.albumdeletes .deletealbummsg
+{
+	margin: 0 0 5px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mmeditimages .catsections .albums ul.albumdatas li.albumdeletes .deletealbummsg
+{
+	display: inline;
+	margin: 0 5px 0 0;
+}
+
+.mmeditimages .error,
+.mmeditimages li.catnames div.error
+{ 
+	font-size: 11px;
+	margin: 0 0 0 5px;
+	display: inline; 
+	color: #ff0000;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mmeditimages li.catnames .loaderimg
+{
+	vertical-align: middle;
+}
+
+.mmeditimages .albumbanners
+{
+	text-transform: uppercase;
+	color: #7A7A7A;
+	display: block;
+	margin: 10px 5px 8px 5px;
+	border-bottom: 2px #C9C9C9 solid;
+	font-weight: bold;
+	clear: both;
+}
+.mmeditimages .albums
+{
+	border: 1px #C9C9C9 solid;
+	display: block;
+	float: left;
+	margin: 0 5px 10px 5px;
+	width: 650px;
+	padding: 5px;
+}
+.mmeditimages .albums .albumcovers
+{
+	min-width: 192px;
+	min-height: 192px;
+	float: left;
+}
+.mmeditimages .albums ul.albumdatas
+{
+	list-style-type: none;
+	float: right;
+	width: 440px;
+	padding: 0 5px 0 5px;
+}
+.mmeditimages .albums ul.albumdatas li
+{
+	display: block;
+}
+.mmeditimages .albums ul.albumdatas li span
+{
+	display: block;
+	margin: 0 0 5px 0;
+}
+.mmeditimages .albums ul.albumdatas .editdescriptionbuttons,
+.mmeditimages .albums ul.albumdatas li .charcounters,
+.mmeditimages .albums ul.albumdatas li .charcounters .counters
+{
+	display: inline;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumnames
+{
+	cursor: pointer;
+	background-color: #F0F0F0;
+	text-transform: uppercase;
+	padding: 3px;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumdescriptions
+{
+	cursor: pointer;
+	background-color: #F0F0F0;
+	height: 160px;
+	overflow: hidden;
+	padding: 3px;
+	text-align: justify;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumtagids
+{
+	cursor: pointer;
+	background-color: #F0F0F0;
+	padding: 3px;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos .editimagescounts,
+.mmeditimages .albums ul.albumdatas li.albuminfos .editablumupdateds
+{
+	text-align: right;
+}
+.mmeditimages .albums ul.albumdatas li .albumfrms
+{
+	display: none;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes
+{
+	display: none;
+}
+.mmeditimages .albums .albumoptions
+{
+	margin: 5px 0 0 0;
+	float: left;
+	width: 650px;
+}
+.mmeditimages .albums .albumoptions .editalbumimages span
+{
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #5F5F5F;
+	cursor: pointer;
+}
+.mmeditimages .albums .albumoptions .deletealbums span
+{
+	float: right;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditimages .albums .albumfrms .error
+{ 
+	font-size: 11px;
+	margin: 5px 5px 0px 5px;
+	display: block; 
+	color: #ff0000;
+	text-transform: capitalize;
+}
+.mmeditimages #categories ul.catdeletes li.completedeletecategories span,
+.mmeditimages #categories ul.catdeletes li.dontdeletecategories span,
+.mmeditimages #categories ul.caterrmsguls .caterrmsgokbutts span,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span
+{
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumnames:hover,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumnames:active,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumnames:focus,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumdescriptions:hover,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumdescriptions:active,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumdescriptions:focus,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumtagids:hover,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumtagids:active,
+.mmeditimages .albums ul.albumdatas li.albuminfos span.editalbumtagids:focus,
+.mmeditimages .albums .albumoptions .editalbumimages span:hover,
+.mmeditimages .albums .albumoptions .editalbumimages span:active,
+.mmeditimages .albums .albumoptions .editalbumimages span:focus,
+.mmeditimages .albums .albumoptions .deletealbums span:hover,
+.mmeditimages .albums .albumoptions .deletealbums span:active,
+.mmeditimages .albums .albumoptions .deletealbums span:focus,
+.mmeditimages #categories ul.catdeletes li.completedeletecategories span:hover,
+.mmeditimages #categories ul.catdeletes li.completedeletecategories span:active,
+.mmeditimages #categories ul.catdeletes li.completedeletecategories span:focus,
+.mmeditimages #categories ul.catdeletes li.dontdeletecategories span:hover,
+.mmeditimages #categories ul.catdeletes li.dontdeletecategories span:active,
+.mmeditimages #categories ul.catdeletes li.dontdeletecategories span:focus,
+.mmeditimages #categories ul.catoptions li:hover,
+.mmeditimages #categories ul.catoptions li:active,
+.mmeditimages #categories ul.catoptions li:focus,
+.mmeditimages #categories ul.caterrmsguls .caterrmsgokbutts span:hover,
+.mmeditimages #categories ul.caterrmsguls .caterrmsgokbutts span:active,
+.mmeditimages #categories ul.caterrmsguls .caterrmsgokbutts span:focus,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span:hover,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span:active,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span:focus,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span:hover,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span:active,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes
+{
+	margin: 0 5px 5px 5px;
+}
+.mmeditimages albums ul.albumdatas li.albumdeletes
+{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums,
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums
+{
+	display: inline;
+	margin: 0 5px 0 0;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes .completedeletealbums span
+{
+	font-weight: bold;
+	display: inline;
+	text-transform: uppercase;
+	color: #FF0000;
+}
+.mmeditimages .albums ul.albumdatas li.albumdeletes .dontdeletealbums span
+{
+	font-weight: bold;
+	display: inline;
+	text-transform: uppercase;
+	color: #FF0000;
+}
+.mmeditimages .albums ul.albumdatas li span.albumcatcomboboxes
+{
+	display: inline;
+}
+.mmeditimages .catnotes
+{
+	margin: 5px 0 15px 0;
+	padding: 5px;
+	border: 1px dashed #FF0000;
+}
+.mmeditimages .hidden,
+.mmeditimages .catsp .hidden,
+.mmeditimages .albums ul.albumdatas .albumfrms .hidden
+{
+	display: none;
+}

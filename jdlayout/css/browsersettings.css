@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.browsersettings #sidebar
+{
+	height: 125px;
+}
+.browsersettings .notes
+{
+	color: #333333;
+	font-size: 12px;
+	text-align: justify;
+	background-color: #FFFFFF;
+	padding: 8px;
+	margin: 25px 70px 25px 70px;
+}
+.browsersettings .browsersettingsbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.browsersettings #js_instructions,
+.browsersettings #c_instructions
+{
+	list-style-type: none;
+	margin: 0 0 25px 0;
+}
+.browsersettings #js_instructions li,
+.browsersettings #c_instructions li
+{
+	margin: 0 0 10px 0;
+}
+.browsersettings #js_instructions h3,
+.browsersettings #c_instructions h3
+{
+	font-size: 20px;
+	margin: 0 0 5px 0;
+}
+.browsersettings #js_instructions li .red,
+.browsersettings #c_instructions li .red
+{
+	font-size: 13px;
+	display: block;
+	margin: 0 0 5px 0;
+}
+.browsersettings #js_instructions ul.subul,
+.browsersettings #c_instructions ul.subul
+{
+	list-style-type: decimal;
+}
+.browsersettings #js_instructions ul.subul li,
+.browsersettings #c_instructions ul.subul li
+{
+	margin: 0 0 2px 25px;
+}
+.browsersettings .hidden
+{
+	display: none;
+}

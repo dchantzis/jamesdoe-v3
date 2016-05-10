@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+.images ul.albumnavi
+{
+	list-style-type:none;
+	float: right;
+}
+.images ul.albumnavi li
+{
+	display: inline;
+}
+.images ul.albumnavi #count
+{
+	margin: 0 10px 0 10px;
+}
+.images ul.albumnavi #imageposition
+{
+	color: #FF0000;
+}
+.images ul.albumnavi #previousimage,
+.images ul.albumnavi #nextimage
+{
+	cursor: pointer;
+}
+.images ul.albumnavi #previousimage:hover,
+.images ul.albumnavi #previousimage:focus,
+.images ul.albumnavi #previousimage:active,
+.images ul.albumnavi #nextimage:hover,
+.images ul.albumnavi #nextimage:focus,
+.images ul.albumnavi #nextimage:active
+{
+	color: #FFFFFF;
+	background-color:#FF0000;
+}
+.images #enlargenote
+{
+	margin: 0 0 5px 0;
+	margin-top: 5px;
+	font-size: 11px;
+	color: #5F5F5F;
+	font-weight: normal;
+	font-style: italic;
+	float: left;
+}
+.images #infonote
+{
+	margin: 0 0 5px 0;
+	margin-top: 5px;
+	float: right;
+}
+.images #infonote a
+{
+	font-size: 11px;
+	color: #5F5F5F;
+	font-weight: normal;
+	text-transform:lowercase;
+	text-decoration: none;
+}
+.images #infonote a:hover,
+.images #infonote a:focus,
+.images #infonote a:active
+{
+	color: #FFFFFF;
+	background-color:#000000;
+}
+.images ul.imageul
+{
+	list-style-type:none;
+
+}
+.images ul.imageul li
+{
+	margin: 0 0 5px 0;
+}
+.images ul.imageul .imagefileurls
+{
+	cursor: pointer;
+	margin: 0 0 10px 0;
+}
+.images ul.imageul .imagenames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color:#000000;
+	margin: 0 0 10px 0;
+	padding: 0 3px 0 3px;
+}
+.images ul.imageul .imagedescriptions
+{
+	text-align: justify;
+	font-weight: normal;
+}
+.images ul.imageul .imagedescriptions:first-letter
+{
+	font-size: 45px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+	margin-right: 3px;
+}
+.images ul.imageul .imagedescriptions:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.images ul.imageul .imagetags
+{
+	clear: both;
+}
+.images ul.imageul .imagetags #imagetagsbanner
+{
+	font-weight: bold;
+	display: inline;
+	float: left;
+}
+.images ul.imageul .imagetags #imagetags
+{
+	display: inline;
+}
+.images ul.imageul .imagesubmitiontimestamps
+{
+	font-weight: bold;
+	font-style: italic;
+}
+.images .noimagesnote
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.images ul.tags
+{
+	list-style-type:none;
+	display: inline;
+}
+.images ul.tags li
+{
+	text-transform: capitalize;
+	display: inline;
+	margin: 0 3px 0 0;
+}
+.images ul.tags li a
+{
+	color: #5F5F5F;
+	text-decoration: none;
+	padding: 2px;
+}
+.images ul.tags li a:hover,
+.images ul.tags li a:focus,
+.images ul.tags li a:active
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.images #loadnextimage
+{
+	position: absolute;
+	width: 681px;
+	height: 100%;
+	top: 0px;
+	height: 100%;
+	background: url('../images/bglinewhite60.png') fixed repeat-x top;
+}
+.images .hidden
+{
+	display: none;
+}

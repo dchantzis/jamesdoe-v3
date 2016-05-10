@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmlogin .mmloginbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 0 15px 0;
+	color: #FFFFFF;
+	background-color:#000000;
+	padding: 0 3px 0 3px;
+}
+.mmlogin #mmloginmessages
+{
+	height: 15px;
+	color: #FF0000;
+	font-size: 15px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mmlogin #mmloginfrms input
+{
+	background: #f8f8f8 url(../images/inputbackground.gif) repeat-x top left;
+	border: 1px solid #000000;
+	border-color: #c0c4c6 #e0e4e6 #e0e4e6 #c0c4c6;
+}
+
+.mmlogin #mmloginfrms input.highlight,
+.mmlogin #mmloginfrms input.highlight,
+.mmlogin #mmloginfrms input:focus,
+.mmlogin #mmloginfrms input:focus
+{
+	background: transparent;
+	border-color: #a0b0b8;
+	color: #204050;
+}
+
+.mmlogin #mmloginfrms
+{
+	list-style-type: none;
+}
+.mmlogin #mmloginfrms li
+{
+	margin: 0 0 25px 0;
+}
+.mmlogin #mmloginfrms #mmloginusrnamefield
+{
+	position: relative;
+	top: 15px;
+	left: 225px;
+}
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment1
+{
+	position: relative;
+	top: 5px;
+	left: 225px;
+}
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment2
+{
+	position: relative;
+	top: 5px;
+	left: 225px;
+}
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment3
+{
+	position: relative;
+	top: 5px;
+	left: 225px;
+}
+.mmlogin #mmloginfrms label
+{
+	font-size: 60px;
+	text-transform: capitalize;
+	width: 10px;
+	display: block;
+	cursor: pointer;
+	float: left;
+	color: #7D7D7D;
+	vertical-align: bottom;
+}
+.mmlogin #mmloginfrms #mmloginusrnamefield
+{
+	color: #CED0D5;
+	height: 180px;
+	width: 420px;
+	font-size: 150px;
+	padding: 10px;
+	border: 1px solid #5F5F5F;
+}
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment1,
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment2,
+.mmlogin #mmloginfrms #mmpasswrdfieldfragment3
+{
+	color: #CED0D5;
+	height: 180px;
+	width: 122px;
+	font-size: 150px;
+	padding: 10px;
+	border: 1px solid #5F5F5F;
+	margin: 0 2px 0 0;
+}
+.mmlogin #mmloginfrms #mmloginsubmit .button
+{
+	font-size: 12px;
+	line-height: 20px;
+	vertical-align: middle;
+	width: 100%;
+}
+.mmlogin .loaderimg
+{
+	vertical-align: middle;
+	margin: 200px 0px 0px 318px;
+	width: 25px;
+	height: 25px;
+}
+.mmlogin .successfulloginmessege1
+{
+	font-size: 25px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.mmlogin .successfulloginmessege2
+{
+	color: #FF0000;
+	font-size: 60px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.mmlogin .successfulloginmessege3
+{
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+}
+.mmlogin .hidden
+{
+	display: none;
+}

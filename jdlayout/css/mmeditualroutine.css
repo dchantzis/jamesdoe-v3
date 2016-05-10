@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmeditualroutine .ualbanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+
+.mmeditualroutine #entriesoptions
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+}
+.mmeditualroutine #entriesoptions a
+{
+	color: #5F5F5F;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.mmeditualroutine #entriesoptions #deleteallerrorentries
+{
+	padding: 0 5px 0 5px;
+}
+.mmeditualroutine #entriesoptions #deleteallentriesline
+{
+	width: 115px;
+	height: 3px;
+	margin: 1px 0 0 0;
+	background: url('../images/line.gif') no-repeat top;
+}
+.mmeditualroutine .entriesdeletes
+{
+	font-size: 12px;
+	margin: 0 0 19px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: none;
+}
+.mmeditualroutine .deleteentriesmsg
+{
+	color: #FF0000;
+	margin: 0 20px 0 0;
+}
+.mmeditualroutine .completedeleteentries,
+.mmeditualroutine .dontdeleteentries
+{
+	display: inline;
+	margin: 0 10px 0 0;
+	cursor: pointer
+}
+.mmeditualroutine #entriesoptions a:hover,
+.mmeditualroutine #entriesoptions a:active,
+.mmeditualroutine #entriesoptions a:focus,
+.mmeditualroutine .completedeleteentries span:hover,
+.mmeditualroutine .completedeleteentries span:active,
+.mmeditualroutine .completedeleteentries span:focus,
+.mmeditualroutine .dontdeleteentries span:hover,
+.mmeditualroutine .dontdeleteentries span:active,
+.mmeditualroutine .dontdeleteentries span:focus
+{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+
+.mmeditualroutine #noresultsmessage 
+{
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+.mmeditualroutine #noresultsmessage span
+{
+	display: block;
+}
+.mmeditualroutine #noresultsmessage #howcome
+{
+	color:#FF0000;
+	font-size: 60px;
+	text-transform:uppercase;
+}
+.mmeditualroutine #noresultsmessage #reasonhowcome
+{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.mmeditualroutine .usersactionlogentries
+{
+	list-style-type: none;
+}
+.mmeditualroutine .usersactionlogentries li
+{
+	margin: 0 0 3px 0;
+	padding: 0 2px 2px 2px;
+}
+.mmeditualroutine .usersactionlogentries li:hover
+{
+	background-color: #C1C1C1;
+	color: #FFFFFF;
+}
+.mmeditualroutine li.odd
+{
+	background-color: #EFEFEF;
+}
+.mmeditualroutine .usersactionlogentries li span
+{
+	margin: 0 10px 0 0;
+}
+.mmeditualroutine .usersactionlogentries #firstrow
+{
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 25px 0;
+	text-transform: uppercase;
+}
+.mmeditualroutine .usersactionlogentries #firstrow:hover
+{
+	background: none;
+	color: #5F5F5F;
+}
+.mmeditualroutine .usersactionlogentries #firstrow .timestamp
+{
+	width: 160px;
+	float:left;
+}
+.mmeditualroutine .usersactionlogentries #firstrow .userip
+{
+	float:left;
+	margin: 0 0 0 25px;
+}
+.mmeditualroutine .usersactionlogentries #firstrow .action
+{
+	display: block;
+	width: 350px;
+	margin: 0 0 0 320px;
+}
+.mmeditualroutine .usersactionlogentries #firstrow .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+	width: 100%;
+	float: left;
+}
+
+.mmeditualroutine .usersactionlogentries li span.actiondatetime
+{
+	font-size: 15px;
+	float:left;
+	font-weight: bold;
+	width: 160px;
+}
+.mmeditualroutine .usersactionlogentries li span.userip
+{
+	font-size: 12px;
+	float: left;
+	margin: 0 0 0 25px;
+}
+.mmeditualroutine .usersactionlogentries li span.message
+{
+	display: block;
+	text-align: justify;
+	padding: 2px;
+	text-transform: capitalize;
+	width: 350px;
+	margin: 0 0 0 320px;
+}
+.mmeditualroutine .usersactionlogentries li span.message:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.mmeditualroutine ul.edituallinks
+{
+	width: 675px;
+	margin-top: 50px;
+	border-top: 1px dashed #DADADA;
+	padding: 3px; 
+	list-style-type: none;
+	float: left;
+}
+.mmeditualroutine ul.edituallinks li
+{
+	display: inline;
+}
+.mmeditualroutine ul.edituallinks #prev
+{
+	float: left;
+}
+.mmeditualroutine ul.edituallinks #next
+{
+	float: right;
+}
+.mmeditualroutine ul.edituallinks li a
+{
+	color:#5F5F5F;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.mmeditualroutine ul.edituallinks li a:hover,
+.mmeditualroutine ul.edituallinks li a:active,
+.mmeditualroutine ul.edituallinks li a:focus
+{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.mmeditualroutine .hidden
+{
+	display: none;
+}

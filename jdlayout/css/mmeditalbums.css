@@ -1,0 +1,405 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mmeditalbums #album
+{
+}
+.mmeditalbums #cover
+{
+	width: 100px;
+	height: 100px;
+}
+.mmeditalbums .uploadimagesection,
+.mmeditalbums .editalbuminfosection
+{
+	display: none;
+}
+.mmeditalbums #albumimages
+{
+}
+.mmeditalbums .imagesbanners
+{
+	margin: 0 0 5px 0;
+	padding: 0 5px 0 0;
+	clear: both;
+}
+.mmeditalbums .imagesbanners #banner
+{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0 0 5px 0;
+}
+.mmeditalbums .imagesbanners #organizealbumimages
+{
+	float: right;
+	line-height: 20px;
+	vertical-align: bottom;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+}
+.mmeditalbums .imagesbanners #organizealbumimages #organizealbumimagescheckbox
+{
+	vertical-align: top;
+	cursor: pointer;
+	width: 19px;
+	height: 16px;
+}
+.mmeditalbums .albumcontents
+{
+	width: 660px;
+	background-color: #313131;
+	float: left;
+	padding: 8px;
+}
+.mmeditalbums ul.imagesections
+{
+	border: 5px solid #313131;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.mmeditalbums ul.imagesections:hover,
+.mmeditalbums ul.imagesections:active,
+.mmeditalbums ul.imagesections:focus
+{
+	border: 5px solid #D50000;
+}
+.mmeditalbums ul.imagesections li.imagethumbs
+{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.mmeditalbums ul.imagesections li.imageinfos
+{
+	display: none;
+	float: left;
+	/*width: 288px;*/
+	width: 400px;
+	height: 150px;
+	padding: 0 10px 0 10px;
+}
+
+.mmeditalbums ul.imagesections li.imageinfos .imagesubmitiontimestamp
+{
+	display: block;
+	float: right;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagecovers
+{
+	display: block;
+	text-align: right;
+	text-transform: capitalize;
+	margin: 0 0 10px 0;
+	padding: 3px;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagecovers .imagecovers
+{
+	vertical-align: middle;
+	cursor: pointer;
+	width: 17px;
+	height: 19px;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagecovers
+{
+	cursor: pointer;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagenames,
+.mmeditalbums ul.imagesections li.imageinfos .editimagedescriptions,
+.mmeditalbums ul.imagesections li.imageinfos .editimagetags,
+.mmeditalbums ul.imagesections li.imageinfos .editimagealbums
+{
+	display: block;
+	cursor: pointer;
+	background-color: #F2F2F2;
+	margin: 0 0 10px 0;
+	padding: 3px;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagenames
+{
+	text-transform: uppercase;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editimagedescriptions
+{
+	height: 95px;
+	overflow: hidden;
+	text-align: justify;
+}
+.mmeditalbums ul.albumbanners li.albumnames span.editalbumnames:hover,
+.mmeditalbums ul.albumbanners li.albumdescriptions span.editalbumdescriptions:hover,
+.mmeditalbums ul.imagesections li.imageinfos .editimagenames:hover,
+.mmeditalbums ul.imagesections li.imageinfos .editimagedescriptions:hover,
+.mmeditalbums ul.imagesections li.imageinfos .editimagetags:hover,
+.mmeditalbums ul.imagesections li.imageinfos .editimagealbums:hover
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+.mmeditalbums ul.imagesections li.imageinfos .imagefrms,
+.mmeditalbums ul.albumbanners .albumfrms
+{
+	display: none;
+}
+.mmeditalbums ul.imagesections li.imageinfos .editdescriptionbuttons
+{
+	/*margin: 15px 0 0 184px;*/
+	margin: 5px 0 0 0;
+}
+.mmeditalbums ul.imagesections li.imageoptions
+{
+	display: none;
+}
+.mmeditalbums ul.imagesections li.imageoptions .closeimagesections
+{
+	float: left;
+	margin: 135px 12px 5px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+.mmeditalbums ul.imagesections li.imageoptions .deleteimages
+{
+	float: right;
+	margin: 135px 12px 5px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	color: #FF0000;
+	cursor: pointer;
+}
+.mmeditalbums ul.imagesections li.imageoptions .deleteimages span:hover,
+.mmeditalbums ul.imagesections li.imageoptions .deleteimages span:active,
+.mmeditalbums ul.imagesections li.imageoptions .deleteimages span:focus,
+.mmeditalbums ul.imagesections li.imagedeletes .completedeleteimages span:hover,
+.mmeditalbums ul.imagesections li.imagedeletes .completedeleteimages span:active,
+.mmeditalbums ul.imagesections li.imagedeletes .completedeleteimages span:focus,
+.mmeditalbums ul.imagesections li.imagedeletes .dontdeleteimages span:hover,
+.mmeditalbums ul.imagesections li.imagedeletes .dontdeleteimages span:active,
+.mmeditalbums ul.imagesections li.imagedeletes .dontdeleteimages span:focus,
+.mmeditalbums ul.imagesections li.imageoptions .closeimagesections span:hover,
+.mmeditalbums ul.imagesections li.imageoptions .closeimagesections span:active,
+.mmeditalbums ul.imagesections li.imageoptions .closeimagesections span:focus,
+.mmeditalbums #album #uploadimageresults #uploadimageresultsclose span:hover
+{
+	background-color:#FF0000;
+	color:#FFFFFF;
+}
+.mmeditalbums ul.imagesections li.imagedeletes
+{
+	display: none;
+	color: #7A7A7A;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 5px 5px 0 10px;
+	float: left;
+}
+.mmeditalbums ul.imagesections li.imagedeletes .completedeleteimages span,
+.mmeditalbums ul.imagesections li.imagedeletes .dontdeleteimages span
+{
+
+	color: #FF0000;
+	cursor: pointer;
+	margin: 0 2px 0 0;
+}
+.mmeditalbums ul.albumbanners
+{
+	width: 680px;
+	list-style-type: none;
+	margin: 0 0 25px 0;
+	padding: 5px;
+	display: inline;
+	float: left;
+}
+.mmeditalbums .albumvisibility
+{
+	display: inline;
+	float: left;
+}
+.mmeditalbums .editablumupdateds
+{
+	width: 678px;
+	margin: 0 0 15px 0;
+	padding: 3px 0 3px 0;
+	text-align: right;
+}
+.mmeditalbums ul.albumbanners li
+{
+	display: block;
+	float: left;
+}
+.mmeditalbums ul.albumbanners li.albumnames
+{
+	width: 565px;
+	border-bottom: 2px solid #000000;
+	margin: 0 0 5px 5px;
+	padding: 0 3px 0 0;
+}
+.mmeditalbums ul.albumbanners li.albumnames span.editalbumnames
+{
+	font-size: 17px;
+	display: block;
+	width: 568px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.mmeditalbums ul.albumbanners li.albumdescriptions
+{
+	width: 565px;
+	padding: 3px;
+	min-height: 68px;
+	max-height: 68px;
+	margin: 0 0 5px 5px;
+	text-align: justify;
+}
+.mmeditalbums ul.albumbanners li.albumdescriptions .editalbumdescriptions
+{
+	cursor: pointer;
+	display: block;
+	min-height: 68px;
+	max-height: 68px;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+.mmeditalbums ul.albumbanners li.albumdescriptions .charcounters
+{
+	margin: 0 275px 0 0;
+}
+.mmeditalbums ul.uploadimagesections
+{
+	font-size: 14px;
+	width: 665px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 25px 0 25px 0;
+	display: inline;
+	float: left;
+	border: 1px dashed #C9C9C9;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages
+{
+	display: block;
+	margin: 10px 0 0 20px;
+}
+.mmeditalbums ul.uploadimagesections li.supportedimagefiletypes
+{
+	display: block;
+	font-style: italic;
+	margin: 0 0 0 190px;
+	font-size: 12px;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload
+{
+	display: none;
+	width: 269px;
+	font-size: 12px;
+	color: #5F5F5F;
+	border: 1px solid #919191;
+	border-top: 0px;
+	background-color: #F2F2F2;
+	margin: 0 0 0 168px;
+	list-style-type:none;
+	padding: 2px;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload li
+{
+	padding: 3px;
+	cursor: pointer;
+}
+
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload li.imagestouploadbordertop
+{
+	border-top: 1px dashed #919191;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload li:hover
+{
+	color: #000000;
+	background-color: #C0CCD3;
+}
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload li span
+{
+	margin: 0 0 0 5px;
+}
+
+.mmeditalbums ul.uploadimagesections li.uploadimages ul.imagestoupload .deleteimagestoupload
+{
+	vertical-align: middle;
+}
+/*
+###################################################################
+###################################################################
+###################################################################
+###################################################################
+###################################################################
+###################################################################
+*/
+.mmeditalbums .loaderimg
+{
+	vertical-align: middle;
+	margin: 0 0 10px 0;
+	padding: 3px;
+}
+.mmeditalbums #uploadimagesfrm #submituploadfrm .loaderimg
+{
+	margin: 0px;
+	padding: 0px;
+}
+.mmeditalbums .error
+{
+	font-size: 12px;
+	margin: 0 0 0 5px;
+	display: inline; 
+	color: #ff0000;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.mmeditalbums .albumcontents .error
+{
+	font-size: 11px;
+	margin: 0 0 10px 5px;
+	display: block;
+}
+.mmeditalbums .hidden
+{
+	display: none;
+}
+.mmeditalbums ul.imagetagsuggestions 
+{
+	color: #5F5F5F;
+	list-style-type: none;
+	position: relative;
+	border: 1px dashed #919191;
+	background-color: #F2F2F2;
+	margin: 0 0 10px 0;
+	padding: 2px;
+
+}
+.mmeditalbums ul.imagetagsuggestions li 
+{
+	display: inline;
+	margin: 0 0 0 5px;
+	cursor: pointer;
+	padding: 2px;
+}
+.mmeditalbums ul.imagetagsuggestions li:hover,
+.mmeditalbums ul.imagetagsuggestions li:focus,
+.mmeditalbums ul.imagetagsuggestions li:active
+{
+	color: #313131;
+	text-decoration: underline;
+}
+.mmeditalbums .albumnotes
+{
+	margin: 5px 0 15px 0;
+	padding: 5px;
+	border: 1px dashed #FF0000;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.index #maincolumn
+{
+	margin: 0 0 0 0;
+	height: 750px;
+}
+.index #sidebar
+{
+	height: 500px;
+}
+.index #spacer
+{
+	clear: both;
+	height: 3px;
+}
+.index #maincolumn #welcomeimage
+{
+	margin: 0 0 15px 0;
+	width: 681px;
+}
+.index #maincolumn #welcomepagetext
+{
+	text-align: justify;
+}

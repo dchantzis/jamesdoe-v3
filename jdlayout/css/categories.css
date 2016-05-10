@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.categories .categorynames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0 0 15px 0;
+	background-color:#000000;
+	color: #FFFFFF;
+	padding: 0 3px 0 3px;
+}
+.categories .categoryalbumbanners
+{
+	font-weight: bold;
+	font-size: 16px;
+	margin: 15px 0 15px 0;
+	text-transform:capitalize;
+}
+.categories .biglines
+{
+	height: 5px;
+	margin: 1px 0 0 0;
+	background: url('../images/bigline.gif') no-repeat bottom;
+}
+.categories ul.categoryalbums
+{
+	margin: 0 0 15px 0;
+	list-style-type: none;
+}
+.categories ul.categoryalbums li
+{
+	margin: 0 0 5px 0;
+}
+.categories ul.categoryalbums .albumcovers
+{
+	float:right;
+	margin: 0;
+	padding: 0 5px 5px 5px;
+}
+.categories ul.categoryalbums .albumnames
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 5px 0;
+	cursor: pointer;
+}
+.categories ul.categoryalbums .albumnames:hover,
+.categories ul.categoryalbums .albumnames:focus,
+.categories ul.categoryalbums .albumnames:active
+{
+	color: #FFFFFF;
+	background-color:#000000;
+}
+.categories ul.categoryalbums .albumdescriptions
+{
+	text-align:justify;
+	margin: 0 205px 5px 0px;
+	min-height: 200px;
+}
+.categories ul.categoryalbums .albumdescriptions:first-letter
+{
+	font-size: 45px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+	margin-right: 3px;
+}
+.categories ul.categoryalbums .albumdescriptions:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.categories ul.categoryalbums .albumimagecounts
+{
+	text-align: right;
+	font-weight: bold;
+}
+.categories ul.categoryalbums .albumupdatedtimestamps
+{
+	text-align: right;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-style: italic;
+}
+.categories .hidden
+{
+	display: none;
+}

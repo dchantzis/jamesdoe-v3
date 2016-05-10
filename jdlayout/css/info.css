@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+.info .infobanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.info ul.infoelements
+{
+	list-style-type:none;
+}
+.info ul.infoelements li
+{
+	display: inline;
+	float: left;
+	margin: 3px;
+}
+.info ul.infoelements li.infobio
+{
+	text-align:justify;
+	padding: 3px;
+	width: 350px;
+}
+.info ul.infoelements li.infobio:first-letter
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.info ul.infoelements li.infobio:first-line
+{	
+	font-weight: bold;
+	font-size: 12px;
+}
+.info ul.infoelements li.infoprofilepicture
+{
+	
+}
+.info ul.infoelements li.infoprofilepicture img
+{
+
+}
+
+
+.info .contactmebanners
+{
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 20px 0 20px 0;
+	padding: 0 3px 0 3px;
+}
+.info .contactmeinfo
+{
+	width: 250px;
+	display: block;
+	float: left;
+}
+.info .sendcontactfrm
+{
+	display: block;
+	float: right;
+}
+.info #contactfrm
+{
+	width: 400px;
+	list-style-type:none;
+	padding: 10px;
+	background-color: #FFFFFF;
+	background: transparent url('../images/bglineblack10.png') fixed repeat-x top;
+}
+.info #contactfrm li
+{
+	margin: 5px 0 5px 0;
+}
+.info input.text, .info textarea.text, .info select.text
+{
+	background: #f8f8f8 url('../images/inputbackground.gif') repeat-x top left;
+	border: 1px solid #000000;
+	border-color: #c0c4c6 #e0e4e6 #e0e4e6 #c0c4c6;
+	color: #808486;
+	padding:2px 0 2px 4px;
+	margin: 0 3px 0 0;
+	width: 390px;
+	height: 18px;
+}
+.info input.text.highlight,
+.info textarea.text.highlight,
+.info input.text:focus,
+.info textarea.text:focus
+{
+	border-color: #a0b0b8;
+	color: #204050;
+	background-color: #FFFFFF;
+}
+.info textarea.text
+{
+	height: 150px;
+}
+.info input.button {
+	color: #808486;
+	border: 1px solid #000000;
+	border-color:#c0c4c6 #e0e4e6 #e0e4e6 #c0c4c6;
+	margin: 0 3px 0 0;
+	padding: 2px 4px 2px 4px;
+	width: 400px;
+	height: 22px;
+	cursor: pointer;
+	background-color: #f8f8f8;
+}
+.info input.button:hover,
+.info input.button:focus
+{
+	border-color: #a0b0b8;
+	color: #204050;
+}
+.info .hidden
+{
+	display: none;
+}
+.info #content
+{
+	height: 1000px;
+}
+.info .emailme
+{
+	font-style: italic;
+	text-decoration: none;
+	color: #5F5F5F;
+}
+.info #sentemail
+{
+	float: right;
+	font-size: 11px;
+	width: 400px;
+	padding: 10px;
+	background-color: #FFFFFF;
+	background: transparent url('../images/bglineblack10.png') fixed repeat-x top;
+}
+.info #secb
+{
+}
+.info .error
+{
+	font-size: 12px;
+	margin: 0 0 0 5px;
+	display: inline; 
+	color: #ff0000;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.info #sentemailmessage
+{
+	font-weight: normal;
+	padding: 5px;
+	height: 150px;
+	overflow: scroll;
+}
+.info #sentemailclosebutton
+{
+	margin: 0 0 3px 385px;
+	cursor: pointer;
+}
+.info #sentemailbanner
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	text-align: center;
+	margin: 0 0 10px 0;
+	text-transform: capitalize;
+}
+.info #sentemailcontent
+{
+	list-style-type: none;
+	background-color: #FFFFFF;
+}
+.info #sentemailcontent li
+{
+	font-size: 13px;
+	margin: 5px 0 5px 0;
+	font-weight: bold;
+	padding:2px 0 2px 4px;
+}
+.info #sentemailcontent li.scc
+{
+	margin: 10px 0 0 0;
+	font-style: italic;
+	color: #FF0000;
+	text-transform: none;
+}
+.info #sentemailcontent li.smessage span
+{
+	padding: 15px;
+	font-style: italic;
+	text-transform: none;
+}
+.info #loaderdiv
+{
+}
